@@ -1,0 +1,55 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* begin styles */
+
+body {
+  color: #AFEEEE;
+  background: seagreen;
+  font-size: 20px;	
+  padding-top: 80px;
+  padding-left: 60px;
+  font-kerning: normal;
+  font-family:"Raleway", sans-serif;
+  line-height: 30px;
+  margin:auto;
+
+
+}
+
+p.desc {
+
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+
+
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-size:18px;
+
+}
+
+a:hover{
+	color:#AFEEEE;
+
+}
+
+
+
+div#exercises{
+
+
+}
+
+
+li {
+	list-style-type: none;
+}
