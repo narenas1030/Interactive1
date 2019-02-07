@@ -1,53 +1,130 @@
 
-* {
-  margin: 0px;
-  padding: 0px;
-}
 
 /* begin styles */
 
 body {
-  background-image: url("../images/bg1.jpg") repeat 0;
-  min-height: 100%;
-  max-width: 1800px;
-  max-height:1500px;
-  color: orange;
-  font-size: 24xpx;	
-  padding-top: 80px;
-  padding-left: 60px;
-  font-kerning: normal;
-  font-family:"Raleway", sans-serif;
-  line-height: 150%;
-  background-image: url("bg2.jpg");
+  background-image: url(grey.png);
+  color: black;
+  font-size: 15px;	
+  
+  
+  width: 100%;
   
 
 
 }
 
+h1{
+  font-family: 'Merriweather Sans', sans-serif, bold;
+  font-size: 40px;
+
+}
+
+h3 {
+  font-family: 'Merriweather Sans', sans-serif, bold;
+  kerning: normal;
+  letter-spacing: 3px;
+  font-weight: normal;
+  font-size: 10PX
+}
+
+
+
+div.one-half{
+    width: 20%;
+    float: left;
+    margin-top: 250px ;
+    margin-left: 50px;
+    line-height: 200%;
+    text-align: left;
+    min-height: 100%;
+}
+
+div.second-half{
+    width: 55%;
+    float: right;
+    margin-top: 250px;
+    margin-right: 50px;
+    line-height: 200%;
+    text-align: left;
+    min-height: 100%;
+    border-left: 2px solid black;
+}
+
+div#container{
+  max-width: 2000px;
+}
+
+h2{
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  width: 170%;
+}
+
+
 
 
 p.desc {
 
-  font-size: 15px;
-  padding-top: 20px;
+  font-size: 12px;
+  margin:0;
   padding-bottom: 20px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Merriweather Sans', sans-serif;
+  width: 170%;
+  letter-spacing:0.5px;
+  line-height: 3em;
+  kerning: normal;
+
 
 
 }
 
 a {
 	text-decoration: none;
-	color: orange;
-	font-size:18px;
+	color: black;
+	font-size:12px;
+  text-align: left;
+
 
 }
 
-a:hover{
-	color:#AFEEEE;
 
+
+header{
+  padding-bottom: 20px;
+  margin-left: 20px;
 }
 
+nav {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+
+ 
+}
+
+li{
+  text-align: left;
+  font-family: 'Merriweather Sans', sans-serif, bold;
+}
+
+
+
+
+
+nav ul{
+  
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+
+
+}
 
 
 div#exercises{
@@ -56,6 +133,52 @@ div#exercises{
 }
 
 
-li {
-	list-style-type: none;
+
+
+a:hover{
+  color: teal;
 }
+
+li {
+  float: left;
+}
+
+li a.nav {
+  display: block;
+  color: black;
+  margin-right: : 200px; 
+  text-align: left;
+  font-size: 10px;
+  padding:8px;
+  text-decoration: none;
+  list-style-type: none;
+  float: left;
+}
+
+ul.navigator{
+  list-style-type: none;
+  margin: 0;
+  color: white;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+div.container{
+      width: 100%;
+      max-width: 100%;
+      text-align: left;
+      height: 100px;
+      display: block;
+      padding-top: 700px;
+      padding-left: 50px;
+
+
+}
+
+div#copyright{
+      font-size: 13px;
+      color: #a9a9a9;
+      display:block;
+}
+

@@ -24,6 +24,40 @@ body {
    
 	}
 
+
+
+
+
+
+
+	a.back {
+  float: right;
+  position: relative;
+  top: 1em;
+  left: 1em;
+  background:#2b95c0;
+  color: white;
+  display: block;
+  margin-top: 15px;
+  font-family:  arial, sans-serif;
+  font-size:.90em;
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 1.3em ;
+  padding-right: 1.3em;
+  padding-top: 10px;
+  width: 92px;
+  height: 40px;
+  line-height: 1.3em;
+  text-align: center;
+  border: 1pt;
+  border-style: groove;
+  border-color: white;
+  border-radius: 10px;
+	
+}
+
+
 	a {
 		color:white;
 	}
