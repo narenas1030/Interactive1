@@ -12,11 +12,7 @@ body{
    
     
 }
-
-#container div{
-	font-family: 'Crimson Text', serif;
-
-}
+	
 
 h1{
 	text-align: left;
@@ -46,13 +42,14 @@ h2#prelude{
 p {
 	font-size: 15px;
 	font-family: 'Crimson Text', serif;
-	line-height: 150%;
+	line-height: 130%;
 	
 }
 
 p.justify{
 	text-align: justify;
   	text-justify: inter-word;
+  	line-height: 140%;
 }
 
 p.questions {
@@ -62,6 +59,7 @@ p.questions {
 	margin-bottom: 0px;
 	margin-top: 0px;
 	line-height: 150%;
+	color: #FA8072;
 }
 
 h2#Conversation  {
@@ -76,6 +74,7 @@ h2#Conversation  {
  
 
 }
+
 
 div#bg{
 	background-color: #A52A2A;
@@ -108,7 +107,7 @@ h2#Ref{
 
 h2#Prelude{
 	font-family: 'Crimson Text', serif;
-	font-size:50px;
+	font-size:30px;
 	text-align: left;
 	margin-bottom: 0px;
 	margin-top: 0px;
@@ -118,7 +117,8 @@ h2#Prelude{
 }
 
 section.words{
-	column-count: 3;
+	column-count: 2;
+	grid-column-gap: 30px;
 }
 
 section.design{
@@ -136,20 +136,23 @@ ul.style{
 	text-decoration: none;
 	list-style-type: none;
 	font-size:14px;
+	text-align: left;
 }
 
 a:link{
 	text-decoration: none;
 	list-style-type: none;
   	color: black;
- 	padding: 14px 25px;
   	text-align: left; 
   	text-decoration: none;
-  	display: inline-block;
-  	font-size:14px;
+  	display: block;
+  	font-size:17px;
 
 
 
+}
+html {
+  scroll-behavior: smooth;
 }
 
 a:visited{
@@ -163,15 +166,18 @@ a:hover{
 
 div#Toc {
   position: fixed;
+  float: right;
   top: 1em;
   right: 1em;
   text-align:center;
   background:#A52A2A ;
-  color: white;
+  color: #FA8072;
   display: block;
-  font-size: 10px;
+  font-size: 11px;
   margin:0px;
   padding:0px;
+  width: 170px;
+  height: 200px;
 }
 
 
@@ -181,11 +187,19 @@ div#Toc {
 img {
  max-width: 40%;
  display:block;
- margin-left: 0px;
- margin-right: 0px;
-
  float: left;
 
 
  
 }
+
+
+footer#last{
+	background:#A52A2A ;
+	color: white;
+	padding-top: 100px;
+	font-size: 100px;
+	height:100px;
+	text-align: center;
+}
+

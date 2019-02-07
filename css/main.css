@@ -7,7 +7,7 @@
 /* begin styles */
 
 body {
-  background-image: url("bg2.jpg") repeat 0;
+  background-image: url("../images/bg1.jpg") repeat 0;
   min-height: 100%;
   max-width: 1800px;
   max-height:1500px;
