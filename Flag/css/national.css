@@ -1,4 +1,9 @@
 
+* {
+        margin: 0px; padding: 0px;
+}
+
+
 body{
     background: black;
 }
@@ -89,7 +94,7 @@ p.thirdstar{
     left: 43px;
     top: 131px;;
     border-radius: 17px
-    
+
 }
 
 #philippines .sun .ray:nth-child(1) {
