@@ -80,16 +80,17 @@ to position them
     top: 176px;
     left: 30px;
 }
-
+@keyframes
 #mouth {
   width: 35px;
   height: 35px;
- 
+  
   background: red;
   
   top: 199px;
   left: 141px;
 }
+
 
 #body {
   width: 160px;
