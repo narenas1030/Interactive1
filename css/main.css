@@ -104,6 +104,14 @@ nav {
  
 }
 
+a:visited{
+  color: black;
+}
+
+a:hover{
+  color: #53b848;
+}
+
 li{
   text-align: left;
   font-family: 'Merriweather Sans', sans-serif, bold;
@@ -135,9 +143,7 @@ div#exercises{
 
 
 
-a:hover{
-  color: teal;
-}
+
 
 li {
   float: left;

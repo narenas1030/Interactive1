@@ -11,6 +11,7 @@ body { background: black;}
   height: 600px;
   position: relative;
   background: white;
+  transition: 
 }
 
 /* shapes */
@@ -18,9 +19,6 @@ body { background: black;}
 #canvas div{
   border-radius: 200px;
   position: absolute;
-  animation-name: #mouth;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
 }
 
 /* 
@@ -80,12 +78,14 @@ to position them
     top: 176px;
     left: 30px;
 }
-@keyframes
+
 #mouth {
   width: 35px;
   height: 35px;
   
   background: red;
+  -webkit-transition: all 600ms easing’s Bezier curve;
+  transition:         all 600ms easing’s Bezier curve;
   
   top: 199px;
   left: 141px;
