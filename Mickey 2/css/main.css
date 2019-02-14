@@ -84,8 +84,7 @@ to position them
   height: 35px;
   
   background: red;
-  -webkit-transition: all 600ms easing’s Bezier curve;
-  transition:         all 600ms easing’s Bezier curve;
+  
   
   top: 199px;
   left: 141px;
