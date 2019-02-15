@@ -15,9 +15,16 @@ body {
         height: 300px;
         position: relative;
         background: #3d58a8;
+        animation:background 10s alternate infinite;
 
 
 }
+
+@keyframes background{
+        0% {background:#53b848 }
+        50% {background:#41c6e3 }
+        100% {background:#3d58a8 }
+}       
 
 
 }
@@ -25,6 +32,7 @@ body {
         position: absolute;
         top: 15px;
         left: 3px;
+        
 
 }
 
@@ -35,6 +43,7 @@ div:hover ~ div > div{
   transition: all 10s ease-in ;
 
 }
+
 
 
 
