@@ -15,7 +15,7 @@ body {
         height: 300px;
         position: relative;
         background: #3d58a8;
-        animation:background 10s alternate infinite;
+        animation:background 3s alternate infinite;
 
 
 }
