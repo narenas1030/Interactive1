@@ -167,7 +167,7 @@ a:hover{
 div#Toc {
   position: fixed;
   float: right;
-  top: 1em;
+  top: 300px;
   right: 1em;
   text-align:center;
   background:#A52A2A ;
@@ -231,9 +231,9 @@ footer#last{
 
 a.back {
   position: fixed;
-  float: left;
-  top: 1em;
-  left: 1em;
+  float: right;
+  top: 500px;
+  right: 1em;
   background:#A52A2A ;
   color: orange;
   display: block;
