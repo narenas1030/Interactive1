@@ -21,19 +21,13 @@ img {
 }
 
     
-    
-    
-    
-    
-
-
 
 
 
 #tablet,
 #mobile,
 #print {
-    
+    display: none;
 }
 /* tablet */
 @media (min-width: 670px) and (max-width: 1024px) {
