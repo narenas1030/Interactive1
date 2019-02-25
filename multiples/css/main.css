@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    background: black;
+    background: white;
 }
 #desktop {
     display: inline;
@@ -20,7 +20,54 @@ img {
 
 }
 
+
+
+p.white{
+    text-align: center;
+    display: block;
+    font-family: serif;
+    margin:0;
+    padding:0;
+    font-size: 100px;
+    color: white;
+    z-index: 10;
+    position: relative;
+
+}
+p.text{
+    text-align: center;
+    display: block;
+    font-family: serif;
+    margin:0;
+    padding:0;
+    font-size: 30px;
+    font-kerning: auto;
+    color: white;
+    z-index: 10;
+    position: relative;
+
+}
+
+
+
+
+
+
+
+img, #desktop{
+    transition-duration: 1000ms;
+    transition-property: all;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+
+}
+img:hover{
+    transform: scale(10);
+}
+
     
+
+
 
 
 
@@ -30,14 +77,39 @@ img {
     display: none;
 }
 /* tablet */
-@media (min-width: 670px) and (max-width: 1024px) {
+@media (min-width: 770px) and (max-width: 2000px) {
     body {
-        background: grey;
+        background: white;
     }
     #tablet {
         display: inline;
         color: white;
     }
+    p.white2{
+    text-align: center;
+    display: block;
+    font-family: serif;
+    margin:0;
+    padding:0;
+    font-size: 90px;
+    color: black;
+    z-index: 10;
+    position: relative;
+}
+
+p.text2{
+    text-align: center;
+    display: block;
+    font-family: serif;
+    margin:0;
+    padding:0;
+    font-size: 30px;
+    font-kerning: auto;
+    color: black;
+    z-index: 10;
+    position: relative;
+
+}
     #desktop,
     #mobile,
     #print {
@@ -45,7 +117,7 @@ img {
     }
 }
 /* mobile */
-@media (max-width: 670px) {
+@media (max-width: 770px) {
     body {
         background: white;
     }
@@ -53,6 +125,18 @@ img {
         display: inline;
         color: black;
     }
+    p.white3{
+    text-align: center;
+    display: block;
+    font-family: serif;
+    margin:0;
+    padding:0;
+    font-size: 100px;
+    color: black;
+    z-index: 10;
+    position: relative;
+    transform: rotate(-32deg);
+}
     #desktop,
     #tablet,
     #print {
