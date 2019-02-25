@@ -77,7 +77,7 @@ img:hover{
     display: none;
 }
 /* tablet */
-@media (min-width: 770px) and (max-width: 1080px) {
+@media (min-width: 770px) and (max-width: 1020px) {
     body {
         background: white;
     }
