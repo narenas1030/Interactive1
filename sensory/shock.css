@@ -1,0 +1,56 @@
+body { margin:20px; 
+  
+  background-color: black;
+  color: white;
+
+}
+
+.AnimationShock{
+  width: 300px;
+  margin: 0 auto;
+  position: relative; 
+  -webkit-transform-style: preserve-3d;
+  height: 240px;
+  border: 1px solid #bdc7d8;
+  text-align: center;
+  top: 250px;
+  font-size: 50px;
+  color: white;
+}
+
+h1 #instruction{
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  z-index: 10;
+  position: relative;
+  display: block;
+  margin:auto;
+  float: left;
+  top: 300px;
+}
+
+
+
+.AnimationShock .bd:hover {
+  position: absolute;
+  background-color: red;
+  width: 300px;
+  height: 240px;
+}
+
+.AnimationShock .bd:hover {
+  animation-name: diagonal-slide;
+  animation-duration: 0.05s;
+  animation-iteration-count: 15;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes diagonal-slide {
+  from { top: 0; left: 0; animation-timing-function: linear; }
+  20% { top: -5px; left: -5px; animation-timing-function: linear; }
+  40% { top: 5px; left: -5px; animation-timing-function: linear; }
+  60% { top: 5px; left: 5px; animation-timing-function: linear; }
+  80% { top: -5px; left: 5px; animation-timing-function: linear; }
+  to { top: 0; left: 0; animation-timing-function: linear; }
+}
