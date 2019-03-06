@@ -30,30 +30,33 @@ body{
   border-radius: 3000px;
   background: white;
   animation: water 5s infinite linear;
- 
-
-
+  
+  transform: scale(1);
 
 }
 
 
 @keyframes water{
 	 from { transform: rotate(0deg);}
- 	 from { transform: rotate(360deg);}
+ 	 to { transform: rotate(360deg);}
 }
 #water:hover{
-	transform: scale(4);
-
+	transform: scale(7);
+	transition-duration: 10s;
+	top:1000px;
 }
 #straw{
 	width: 100px;
-	height: 1500px;
-	opacity: 0.8;
+	height: 1800px;
+	opacity: 0.6;
 	position: absolute;
-	top: 0;
-	left: 500px;
-	background:#E8EDED;
+	top: 100px;
+	left: 800px;
+	transform: rotate(20deg);
+	background:#B8BEBF;
 	z-index: 10;
+	margin-top: -300px;
+
 }
 
 
