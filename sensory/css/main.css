@@ -43,7 +43,7 @@ body{
 #water:hover{
 	transform: scale(7);
 	transition-duration: 10s;
-	top:1000px;
+	top:1500px;
 }
 #straw{
 	width: 100px;
