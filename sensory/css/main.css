@@ -70,8 +70,8 @@ p{
 #straw{
 	width: 100px;
 	height: 1800px;
-	opacity: 0.6;
-	position: relative;
+	opacity: 0.4;
+	position:relative;
 	top: 100px;
 	left: 800px;
 	transform: rotate(20deg);
