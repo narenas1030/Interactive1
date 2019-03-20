@@ -1,0 +1,281 @@
+
+
+body {
+  background: #801638;
+  width: 100%;
+  height: 11960px;
+  scroll-behavior: smooth;
+}
+
+
+
+body,
+body > * {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+
+}
+
+* {
+  transition: all .3s ease 0s;
+}
+
+
+
+/* Meme BG color themes */
+
+div + div article:nth-child(1) {
+  background: #b2b0ab;
+}
+
+div + div article:nth-child(2) {
+  background: #efc775;
+}
+
+
+div + div article:nth-child(3) {
+  background: #ffffff;
+}
+
+div + div article:nth-child(4),
+div + div {
+  background: #f970a2;
+}
+div + div article:nth-child(5),
+div + div {
+  background: #f20c54;
+}
+div + div article:nth-child(6),
+div + div {
+  background: #1bc3ea;
+}
+div + div article:nth-child(7),
+div + div {
+  background: #a2dd83;
+}
+
+div + div article:nth-child(8),
+div + div {
+  background: #f1a864;
+}
+
+
+/* Main layout */
+
+
+div + div {
+  width: 100%;
+  height: 8%;
+
+}
+
+div + div {
+  list-style: none;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: justify-content;
+  overflow: hidden;
+}
+
+
+/* Articles */
+
+div + div article {
+  flex: initial;
+  width: 12.5%;
+  height: 100%;
+  text-align: center;
+  color: #282d26;
+  text-decoration: none;
+  vertical-align: bottom;
+  box-sizing: border-box;
+  padding-top: 300px;
+  padding-left: 30px;
+  position: relative;
+}
+
+
+/* Big Headings */
+
+body > div:first-child {
+  position: fixed;
+  bottom: 8vh;
+  background: #fff;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+}
+
+body > div:first-child h1,
+body > div:first-child h2 {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Hover */
+
+div + div:hover article {
+  flex: initial;
+  width: 8%;
+}
+
+div + div article:hover {
+  width: 60%;
+}
+
+article > div {
+  opacity: 0;
+  transition: opacity .3s ease .3s;
+}
+
+div + div article:hover > div {
+  opacity: 1;
+  transition: opacity .3s ease .3s;
+}
+
+
+/* navigation */
+
+div + div article > h2 {
+  bottom: 2vh;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  font-size: 14px;
+}
+
+
+/* Article layouts */
+
+article div {
+  text-align: left;
+  width: 558px;
+}
+
+article div p,
+article div div h2,
+article div h3 {
+  margin: 0 0 1em 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+}
+
+article div p {
+  width: 20vw;
+}
+
+
+/*other divs*/
+
+header,
+.opening{
+	background-image: url('bg1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 800px;
+	
+
+}
+
+.container2 {
+	background-image:url('bg.jpg');
+	margin-top: 10px;
+	width: 100%;
+	height: 8%;
+	position: relative;
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+.container3 {
+	background: #efc775;
+	width: 100%;
+	height: 8%;
+	
+}
+
+.container4 {
+	background: white;
+	width: 100%;
+	height: 8%;
+	
+}
+
+.container5 {
+	background: #f970a2;
+	width: 100%;
+	height: 8%;
+	
+}
+
+.container6 {
+	background: #1bc3ea;
+	width: 100%;
+	height: 8%;
+	
+}
+
+.container7 {
+	background: #a2dd83;
+	width: 100%;
+	height: 8%;
+	
+}
+.container8 {
+	background: #f1a864;
+	width: 100%;
+	height: 8%;
+	
+}
+
+#content{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+
+}
+
+h1.fun{
+	font-size: 300px;
+	display: block;
+	text-align: center;
+	z-index: 10;
+}
+
+
+img{
+	margin: 0;
+	padding:0;
+	display: block;
+	width: 400px;
+	height:400px;
+	left: 550px;
+	top:200px;
+	position: relative;
+	animation: meme 5s infinite linear;
+
+}
+
+@keyframes meme{
+	 from { transform: rotate(0deg);}
+ 	 to { transform: rotate(360deg);}
+}
+
