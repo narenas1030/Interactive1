@@ -313,17 +313,13 @@ img{
 	left: 595px;
 	top:200px;
 	position: relative;
-	animation: meme .3s infinite linear;
+	animation: meme 3s  infinite linear;
 
 	
 	
 
 }
 
-@keyframes meme{
-	 from { transform: rotate(0deg);}
- 	 to { transform: rotate(360deg);}
-}
 
 @keyframes meme{
 	from{transform:scale(0) rotate(0deg);}
