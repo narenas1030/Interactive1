@@ -3,7 +3,7 @@ body {
   background: #801638;
   width: 100%;
   height: 11960px;
-  color: white;
+  
   
 }
 html{
@@ -87,6 +87,12 @@ img{
 
 }
 
+.secondanimation img{
+	background-repeat: no-repeat;
+	background-size: fixed;
+	
+	
+}
 
 
 @keyframes meme{
@@ -100,6 +106,7 @@ img{
 
 a:hover{
 	background: white;
+	
 
 	
 
