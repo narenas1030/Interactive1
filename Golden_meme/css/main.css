@@ -3,7 +3,6 @@ body {
   background: #801638;
   width: 100%;
   height: 11960px;
-  scroll-behavior: smooth;
   color: white;
   
 }
@@ -18,9 +17,10 @@ body > * {
   padding: 0;
   font-family: 'Avenir Book', sans-serif;
   font-weight: normal;
+  scroll-behavior: smooth;
 }
 * {
-  transition: all .3s ease 0s;
+  transition: all 2s ease ;
   
 }
 
@@ -31,6 +31,7 @@ body > * {
 	background-size: 100%;
 	width: 100%;
 	height: 900px;
+
 	
 
 }
@@ -79,8 +80,10 @@ img{
 
 }
 
+/*animation*/
+
 .firstanimation{
-	animation: meme 1s  infinite linear;
+	animation: meme 2s  infinite linear;
 
 }
 
@@ -91,78 +94,19 @@ img{
 	to{transform: rotate(360deg) ;}
 }
 
+
+/*links and hover*/
+
+
 a:hover{
 	background: white;
+
 	
 
 }
 a:visited{
 	color: red;
 }
-
-
-
-
-
-
-
-/*Grid preview
-.grid-container{
-	display: grid;
-	grid-template-columns: auto auto auto auto auto auto auto auto;
-
-}
-
-#item-1 {
-  background: #b2b0ab;
-
-    
-}
-
-#item-2 {
-  background: #efc775;
-
-    
-}
-
-#item-3 {
-  background:white;
-
-    
-}
-
-#item-4 {
-  background: #4776fa;
-
-    
-}
-
-#item-5 {
-  background:#f970a2;
-
-    
-}
-
-#item-6 {
-  background: #1bc3ea;
-
-    
-}
-
-#item-7 {
-  background:#a2dd83;
-
-    
-}
-
-#item-8 {
-  background:#f1a864;
-
-    
-}
-*/
-
-
 
 
 
@@ -288,9 +232,84 @@ article div{
 	line-height: 24px;
 }
 
+
+
+.container2 h1{
+	color: #F0C415;
+	font-size: 40px;
+	text-align: center;
+	position: absolute;
+	background: #38B049;
+	padding: 10px 10px;
+	margin-left: 20px;
+
+}
+.container3 h1{
+	color: #F0C415;
+	font-size: 40px;
+	text-align: center;
+	position: absolute;
+	background: #38B049;
+	padding: 10px 10px;
+	margin-left: 20px;
+}
+.container4 h1{
+	color: #F0C415;
+	font-size: 40px;
+	text-align: center;
+	position: absolute;
+	background: #38B049;
+	padding: 10px 10px;
+	margin-left: 20px;
+}
+.container5 h1{
+	color: #F0C415;
+	font-size: 40px;
+	text-align: center;
+	position: absolute;
+	background: #38B049;
+	padding: 10px 10px;
+	margin-left: 20px;
+}
+.container6 h1{
+	color: #F0C415;
+	font-size: 40px;
+	text-align: center;
+	position: absolute;
+	background: #38B049;
+	padding: 10px 10px;
+	margin-left: 20px;
+}
+.container7 h1{
+	color: #F0C415;
+	font-size: 40px;
+	text-align: center;
+	position: absolute;
+	background: #38B049;
+	padding: 10px 10px;
+	margin-left: 20px;
+}
+.container8 h1{
+	color: #F0C415;
+	font-size: 40px;
+	text-align: center;
+	position: absolute;
+	background: #38B049;
+	padding: 10px 10px;
+	margin-left: 20px;
+}
+.container9 h1{
+	color: #F0C415;
+	font-size: 40px;
+	text-align: center;
+	position: absolute;
+	background: #38B049;
+	padding: 10px 10px;
+	margin-left: 20px;
+}
+
 .container2 {
 	background-image:url('dancing.jpg');
-	margin-top: 10px;
 	width: 100%;
 	height: 8%;
 	position: relative;
@@ -300,6 +319,8 @@ article div{
 
 	
 }
+
+
 
 .container3 {
 	background-image:url('doge.jpg');
@@ -387,14 +408,9 @@ article div{
 
 
 
+@media
 
 
 
 
 
-
-
-
-
-
-@media 
