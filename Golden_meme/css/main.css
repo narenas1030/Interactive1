@@ -115,8 +115,10 @@ a{
   display: inline-block;
 }
 
-#link2{
-  
+#link2 a{
+  position: absolute;
+  display: block;
+  top: 0;
 }
 
 #link3{
@@ -509,7 +511,7 @@ article div{
 }
 
 .info{
-	top: 450px;
+	top: 420px;
 	position: absolute;
 	margin-left: 30px;
 }
