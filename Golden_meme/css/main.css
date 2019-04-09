@@ -879,6 +879,63 @@ article div{
 }
 
 
+/*about*/
+
+#content2{
+	background: #282d26;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 1000px;
+	margin: 0px;
+	padding:0px;
+
+}
+
+#content2 h1{
+	top: 200px;
+	display: block;
+	position: relative;
+	font-size: 30px;
+	font-family:OCR A std;
+	font-weight: normal;
+
+	
+}
+
+.oneside{
+	width: 100%;
+    float: left;
+    margin-left: 20px;
+   	z-index: 10;
+    text-align: left;
+    min-height: 100%;
+
+  }
+
+ .secondside{
+ 	width: 100%;
+ 	top: 0px;
+ 	display: block;
+ 	position:absolute;
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+
+
+.info{
+	color: white;
+	position: absolute;
+	
+}
+
+
+.third a{
+	color: pink;
+}
+
+
 
 
 
