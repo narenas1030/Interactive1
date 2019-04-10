@@ -28,7 +28,7 @@ body > * {
 .opening{
 	background-image: url('memebg.jpg');
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	width: 100%;
 	height: 900px;
 
@@ -61,10 +61,30 @@ h2,
 	padding: 0;
 	color: #F0C415;
 	font-weight: normal;
-	letter-spacing: 7px;
+	letter-spacing: 2px;
 	font-size: 28px;
 	top:450px;
 	z-index: 10;
+}
+
+
+.instructions {
+	display: block;
+	margin: 0;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+	position: relative;
+	z-index: 10;
+	color: #282d26;
+	font-size: 18px;
+	top: 650px;
+	left: 630px;
+	background:#f44336;
+	width: 400px;
+	height:auto;
+
+
+
 }
 
 
@@ -121,9 +141,6 @@ a{
   top: 0;
 }
 
-#link3{
-
-}
 
 
 a:link{
@@ -133,9 +150,6 @@ a:link{
 a:hover{
 	background: white;
 	
-
-	
-
 }
 a:visited{
 	color: #282d26;
@@ -377,7 +391,7 @@ article div{
 	width: 100%;
 	height: 956.4px;
 	position: relative;
-	background-size: 100%;
+	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 
@@ -391,7 +405,7 @@ article div{
 	width: 100%;
 	height: 956.4px;
 	position: relative;
-	background-size: 100%;
+	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	
@@ -402,7 +416,7 @@ article div{
 	width: 100%;
 	height: 956.4px;
 	position: relative;
-	background-size: 100%;
+	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
@@ -412,7 +426,7 @@ article div{
 	width: 100%;
 	height: 956.4px;
 	position: relative;
-	background-size: 100%;
+	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	
@@ -423,7 +437,7 @@ article div{
 	width: 100%;
 	height: 956.4px;
 	position: relative;
-	background-size: 100%;
+	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	
@@ -434,7 +448,7 @@ article div{
 	width: 100%;
 	height: 956.4px;
 	position: relative;
-	background-size: 100%;
+	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	
@@ -444,7 +458,7 @@ article div{
 	width: 100%;
 	height: 956.4px;
 	position: relative;
-	background-size: 100%;
+	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	
@@ -455,7 +469,7 @@ article div{
 	width: 100%;
 	height: 956.4px;
 	position: relative;
-	background-size: 100%;
+	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	
@@ -928,6 +942,8 @@ article div{
  	position:absolute;
  	margin: 0px;
  	padding: 0px;
+ 	border-left: none;
+
  }
 
 
