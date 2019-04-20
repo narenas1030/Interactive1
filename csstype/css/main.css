@@ -1,0 +1,1671 @@
+
+
+body{
+	margin: 0px;
+	padding: 0px;
+	width: 10000px;
+	height: auto;
+
+
+}
+
+div#container{
+	display: inline-block;
+	position: relative;
+	margin-top: 260px;
+
+
+}
+
+/* A */
+
+.letter{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 300px;
+	padding-right: 20px;
+	top: 110px;
+
+}
+
+
+.letter div.left{
+	background: black;
+	border-radius: 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.letter div.right{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+.letter div.leftbot{
+	background: black;
+	border-radius: 60px 0px 0px 60px;
+	width: 100%;
+	height: 105px;
+}
+
+
+.letter div.rightbot{
+	background:  black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 105px;
+}
+
+.letter div.leftex{
+	background: transparent;
+}
+
+
+.letter div.rightex{
+	background:  transparent;
+}
+
+
+/* B */
+
+.letter2 {
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 300px;
+	padding-right: 20px;
+	align-content:space-around;
+	justify-content: space-between;
+	top: 50px;
+}
+
+
+
+.letter2 div.left{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 169px;
+
+	}
+
+.letter2 div.right{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+
+.letter2 div.lefttop{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+	.letter2 div.righttop{
+	background: transparent;
+
+	}
+
+.letter2 div.leftbot{
+	background: transparent;
+
+	}
+
+.letter2 div.rightbot{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 111px;
+
+	}
+
+
+
+/* C */
+.letter3{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-row-end: 3;
+	grid-gap: 8px 8px;
+	left: 300px;
+	padding-right: 20px;
+	top: 108px;
+
+}
+
+
+.letter3 div.left{
+	background: black;
+	border-radius: 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.letter3 div.right{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+.letter3 div.leftbot{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 108px;
+}
+
+
+.letter3 div.rightbot{
+	background: transparent;
+}
+
+
+.letter3 div.rightex{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+
+}
+
+
+
+
+/* D */
+
+.letter4 {
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 300px;
+	padding-right: 20px;
+	align-content:space-around;
+	justify-content: space-between;
+	top: 50px;
+}
+
+
+
+.letter4 div.right{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 169px;
+
+	}
+
+.letter4 div.left{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+
+.letter4 div.righttop{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+	.letter4 div.lefttop{
+	background: transparent;
+
+	}
+
+.letter4 div.rightbot{
+	background: transparent;
+
+	}
+
+.letter4 div.leftbot{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 111px;
+
+	}
+
+
+/* E */
+
+.letter5{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-row-end: 3;
+	grid-gap: 8px 8px;
+	left: 300px;
+	padding-right: 20px;
+	top: 108px;
+
+}
+
+
+.letter5 div.left{
+	background: black;
+	border-radius: 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.letter5 div.right{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 90px;
+}
+
+.letter5 div.leftbot{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 108px;
+}
+
+
+.letter5 div.rightbot{
+	background: transparent;
+}
+
+
+.letter5 div.rightex{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+
+}
+.letter5 div.leftex{
+	background: transparent;
+}
+
+
+/* F */
+
+.letter6 {
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 300px;
+	padding-right: 20px;
+	align-content:space-around;
+	justify-content: space-between;
+	top: 50px;
+}
+
+
+
+.letter6 div.left{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 169px;
+
+	}
+
+.letter6 div.right{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+
+.letter6 div.lefttop{
+	background: black;
+	border-radius: 60px 00px 0px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+	.letter6 div.righttop{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+
+.letter6 div.leftbot{
+	background: transparent;
+
+	}
+
+.letter6 div.rightbot{
+	background: transparent;
+
+	}
+
+
+
+/* G */
+
+.letter7 {
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 300px;
+	padding-right: 20px;
+	align-content:space-around;
+	justify-content: space-between;
+	top: 108px;
+}
+
+
+
+.letter7 div.left{
+	background: transparent;
+	}
+
+.letter7 div.right{
+	background: transparent;
+
+	}
+
+.letter7 div.lefttop{
+	background: black;
+	border-radius: 60px 00px 0px 0px;
+	width: 100%;
+	height: 108px;
+
+	}
+.letter7 div.righttop{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 166px;
+
+	}
+
+.letter7 div.leftbot{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 50px;
+
+
+	}
+
+.letter7 div.rightbot{
+	background: transparent;
+
+	}
+
+.letter7 div.leftdescender{
+	background: transparent;
+
+
+	}
+
+.letter7 div.rightdescender{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+
+	/* H */
+
+.letter8 {
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 300px;
+	padding-right: 20px;
+	align-content:space-around;
+	justify-content: space-between;
+	top: 50px;
+}
+
+
+
+.letter8 div.left{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 169px;
+
+	}
+
+.letter8 div.right{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+
+.letter8 div.lefttop{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+	.letter8 div.righttop{
+	background: transparent;
+
+	}
+
+.letter8 div.leftbot{
+	background: transparent;
+
+	}
+
+.letter8 div.rightbot{
+	background: black;
+	border-radius: 0px 0px 00px 60px;
+	width: 100%;
+	height: 111px;
+
+	}
+
+
+
+div#container2{
+	display: inline-block;
+	position: relative;
+
+}
+
+
+
+
+
+	/* I */
+
+.letter9 {
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 300px;
+	padding-right: 0px;
+	padding-top: 40px;
+	align-content:space-around;
+	justify-content: space-between;
+	top: 50px;
+}
+
+
+
+.letter9 div.left{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 169px;
+
+	}
+
+.letter9 div.right{
+	background: transparent;
+
+	}
+
+.letter9 div.lefttop{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+	.letter9 div.righttop{
+	background: transparent;
+
+	}
+
+.letter9 div.leftbot{
+	background: transparent;
+
+	}
+
+.letter9 div.rightbot{
+	background: transparent;
+
+	}
+
+
+
+
+
+
+/* J */
+
+.letter10 {
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 260px;
+	padding-right: 20px;
+	align-content:space-around;
+	justify-content: space-between;
+	top: 150px;
+}
+
+
+
+.letter10 div.left{
+	background: transparent;
+	}
+
+.letter10 div.right{
+	background: transparent;
+
+	}
+
+.letter10 div.lefttop{
+	background: transparent;
+
+	}
+.letter10 div.righttop{
+	background: black;
+	border-radius: 60px 00px 0px 0px;
+	width: 100%;
+	height: 166px;
+
+	}
+
+.letter10 div.leftbot{
+	background: transparent;
+
+
+	}
+
+.letter10 div.rightbot{
+	background: transparent;
+
+	}
+
+.letter10 div.leftdescender{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 50px;
+
+
+	}
+
+.letter10 div.rightdescender{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+
+
+
+
+
+
+
+/* K */
+
+.letter11 {
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 280px;
+	padding-right: 20px;
+	padding-top: 40px;
+	align-content:space-around;
+	justify-content: space-between;
+	top: 50px;
+}
+
+
+
+.letter11 div.left{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 166px;
+
+	}
+
+.letter11 div.right{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 100px;
+
+	}
+
+.letter11 div.lefttop{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+	.letter11 div.righttop{
+	background: transparent;
+
+	}
+
+.letter11 div.leftbot{
+	background: transparent;
+
+	}
+
+.letter11 div.rightbot{
+	background: transparent;
+
+	}
+
+.letter11 div.leftex{
+	background: transparent;
+
+	}
+
+.letter11 div.rightex{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 50px;
+
+	}
+
+
+
+
+
+	/* L */
+
+.letter12 {
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 300px;
+	padding-right: 0px;
+	padding-top: 40px;
+	align-content:space-around;
+	justify-content: space-between;
+	top: 50px;
+}
+
+
+
+.letter12 div.left{
+	background: transparent;
+	}
+
+.letter12 div.right{
+	background: transparent;
+
+	}
+
+.letter12 div.lefttop{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 225px;
+
+	}
+	.letter12 div.righttop{
+	background: transparent;
+
+	}
+
+.letter12 div.leftbot{
+	background: transparent;
+
+	}
+
+.letter12 div.rightbot{
+	background: transparent;
+
+	}
+
+/* M */
+
+.letter13{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 270px;
+	padding-right: 20px;
+	top: 90px;
+
+}
+
+
+.letter13 div.left{
+	background: transparent;
+}
+
+
+.letter13 div.right{
+	background: transparent;
+}
+
+.letter13 div.leftbot{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 167px;
+}
+
+
+.letter13 div.rightbot{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 167px;
+}
+
+.letter13 div.leftex{
+	background: transparent;
+}
+
+
+.letter13 div.rightex{
+	background:  transparent;
+}
+
+
+
+
+
+/* N */
+
+.letter14{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 270px;
+	padding-right: 20px;
+	top: 90px;
+
+}
+
+
+.letter14 div.left{
+	background: transparent;
+}
+
+
+.letter14 div.right{
+	background: transparent;
+}
+
+.letter14 div.leftbot{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 167px;
+}
+
+
+.letter14 div.rightbot{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 167px;
+}
+
+.letter14 div.leftex{
+	background: transparent;
+}
+
+
+.letter14 div.rightex{
+	background:  transparent;
+}
+
+
+
+/* O */
+
+.letter15{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 270px;
+	padding-right: 20px;
+	top: 150px;
+
+}
+
+
+.letter15 div.left{
+	background: black;
+	border-radius: 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.letter15 div.right{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+.letter15 div.leftbot{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 110px;
+}
+
+
+.letter15 div.rightbot{
+	background:  black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 110px;
+}
+
+.letter15 div.leftex{
+	background: transparent;
+}
+
+
+.letter15 div.rightex{
+	background:  transparent;
+}
+
+
+
+/* P */
+
+.letter16 {
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 275px;
+	padding-right: 20px;
+	align-content:space-around;
+	justify-content: space-between;
+	top: 155px;
+}
+
+
+
+.letter16 div.left{
+	background: transparent;
+	}
+
+.letter16 div.right{
+		background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 107px;
+
+	}
+
+.letter16 div.lefttop{
+	background: black;
+	border-radius: 60px 00px 0px 0px;
+	width: 100%;
+	height: 166px;
+
+	}
+.letter16 div.righttop{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+
+.letter16 div.leftbot{
+	background: transparent;
+
+
+	}
+
+.letter16 div.rightbot{
+	background: transparent;
+
+	}
+
+.letter16 div.leftdescender{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+
+
+	}
+
+.letter16 div.rightdescender{
+	background: transparent;
+
+	}
+
+
+/* Q*/
+
+.letter17 {
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 275px;
+	padding-right: 20px;
+	align-content:space-around;
+	justify-content: space-between;
+	top: 155px;
+}
+
+
+
+.letter17 div.left{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 107px;
+	}
+
+.letter17 div.right{
+		background: transparent;
+
+	}
+
+.letter17 div.lefttop{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+.letter17 div.righttop{
+	
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 166px;
+
+	}
+
+.letter17 div.leftbot{
+	background: transparent;
+
+
+	}
+
+.letter17 div.rightbot{
+	background: transparent;
+
+	}
+
+.letter17 div.leftdescender{
+	background: transparent;
+
+
+	}
+
+.letter17 div.rightdescender{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 50px;
+
+	}
+
+
+
+
+/* R */
+
+.letter18{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 280px;
+	padding-right: 20px;
+	top: 160px;
+
+}
+
+
+.letter18 div.left{
+	background: black;
+	border-radius: 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.letter18 div.right{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+.letter18 div.leftbot{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 105px;
+}
+
+
+.letter18 div.rightbot{
+	background:  transparent;
+}
+
+.letter18 div.leftex{
+	background: transparent;
+}
+
+
+.letter18 div.rightex{
+	background:  transparent;
+}
+
+
+
+/* S */
+
+.letter19{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 270px;
+	padding-right: 20px;
+	top: 160px;
+
+}
+
+
+.letter19 div.left{
+	background: black;
+	border-radius: 60px 0px 0px 60px;
+	width: 100%;
+	height: 90px;
+}
+
+
+.letter19 div.right{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+.letter19 div.leftbot{
+	background: transparent;
+}
+
+.letter19 div.rightbot{
+	background: black;
+	border-radius: 0px 60px 60px 0px;
+	width: 100%;
+	height: 108px;
+}
+
+.letter19 div.leftex{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.letter19 div.rightex{
+	background: transparent;
+	
+}
+
+
+
+
+
+/* T */
+
+.letter20 {
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 280px;
+	padding-right: 20px;
+	padding-top: 40px;
+	align-content:space-around;
+	justify-content: space-between;
+	top: 60px;
+}
+
+
+
+.letter20 div.left{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 166px;
+
+	}
+
+.letter20 div.right{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+
+.letter20 div.lefttop{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+	.letter20 div.righttop{
+	background: transparent;
+
+	}
+
+.letter20 div.leftbot{
+	background: transparent;
+
+	}
+
+.letter20 div.rightbot{
+	background: transparent;
+
+	}
+
+.letter20 div.leftex{
+	background: transparent;
+
+}
+
+.letter20 div.rightex{
+	background: transparent;
+
+	}
+
+/* U */
+
+.letter21{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 280px;
+	padding-right: 20px;
+	top: 100px;
+
+}
+
+
+.letter21 div.left{
+	background: transparent;
+}
+
+
+.letter21 div.right{
+	background: transparent;
+}
+
+.letter21 div.leftbot{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 160px;
+}
+
+
+.letter21 div.rightbot{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 160px;
+}
+
+.letter21 div.leftex{
+	background: transparent;
+}
+
+
+.letter21 div.rightex{
+	background:  transparent;
+}
+
+
+
+/* V */
+
+.letter22{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 280px;
+	padding-right: 20px;
+	top: 100px;
+
+}
+
+.letter22 div.left{
+	background: transparent;
+}
+
+
+.letter22 div.right{
+	background: transparent;
+}
+
+.letter22 div.leftbot{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.letter22 div.rightbot{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+.letter22 div.leftex{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 105px;
+}
+
+
+.letter22 div.rightex{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 105px;
+}
+
+
+
+
+/* W */
+
+.letter23{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 280px;
+	padding-right: 20px;
+	top: 160px;
+
+}
+
+.letter23 div.left{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.letter23 div.right{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+.letter23 div.leftbot{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 110px;
+}
+
+
+.letter23 div.rightbot{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 110px;
+}
+
+.letter23 div.leftex{
+	background: transparent;
+}
+
+
+.letter23 div.rightex{
+	background: transparent;
+}
+
+
+/* X */
+
+.letter24{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 280px;
+	padding-right: 20px;
+	top: 160px;
+
+}
+
+.letter24 div.left{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.letter24 div.right{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+.letter24 div.leftbot{
+	background: black;
+	border-radius: 600px 0px 0px 0px;
+	width: 100%;
+	height: 108px;
+}
+
+
+.letter24 div.rightbot{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 108px;
+}
+
+.letter24 div.leftex{
+	background: transparent;
+}
+
+
+.letter24 div.rightex{
+	background: transparent;
+}
+
+
+
+/* Y */
+
+.letter25 {
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 275px;
+	padding-right: 20px;
+	align-content:space-around;
+	justify-content: space-between;
+	top: 155px;
+}
+
+
+
+.letter25 div.left{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 107px;
+	}
+
+.letter25 div.right{
+		background: transparent;
+
+	}
+
+.letter25 div.lefttop{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+.letter25 div.righttop{
+	
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 166px;
+
+	}
+
+.letter25 div.leftbot{
+	background: transparent;
+
+
+	}
+
+.letter25 div.rightbot{
+	background: transparent;
+
+	}
+
+.letter25 div.leftdescender{
+	background: transparent;
+
+
+	}
+
+.letter25 div.rightdescender{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+
+
+
+
+
+/* Z */
+
+.letter26{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 270px;
+	padding-right: 20px;
+	top: 160px;
+
+}
+
+
+.letter26 div.left{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.letter26 div.right{
+	background: black;
+	border-radius: 0px 60px 60px 0px;
+	width: 100%;
+	height: 90px;
+}
+
+.letter26 div.leftbot{
+	background: black;
+	border-radius: 60px 0px 0px 60px;
+	width: 100%;
+	height: 108px;
+}
+
+.letter26 div.rightbot{
+	background: transparent;
+}
+
+.letter26 div.leftex{
+	background: transparent;
+}
+
+
+.letter26 div.rightex{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
