@@ -1600,26 +1600,694 @@ div#container2{
 }
 
 
+/* NUMBERS */ 
+
+/* 1 */
+
+.number1{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 400px;
+	padding-right: 20px;
+	top: 100px;
+
+}
+
+.number1 div.left{
+	background: transparent;
+}
+
+
+.number1 div.right{
+	background: transparent;
+}
+
+.number1 div.leftbot{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.number1 div.rightbot{
+	background: transparent;
+}
+
+.number1 div.leftex{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 109px;
+}
+
+
+.number1 div.rightex{
+	background: transparent;
+}
+
+
+
+
+
+/* 3 */
+
+.number2{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 350px;
+	padding-right: 20px;
+	top: 160px;
+
+}
+
+
+.number2 div.left{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.number2 div.right{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 80px;
+}
+
+.number2 div.leftbot{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 108px;
+}
+
+.number2 div.rightbot{
+	background: transparent;
+}
+
+.number2 div.leftex{
+	background: transparent;
+}
+
+
+.number2 div.rightex{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+
+
+
+/* 3 */
+
+.number3{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 350px;
+	padding-right: 20px;
+	top: 160px;
+
+}
+
+
+.number3 div.left{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.number3 div.right{
+	background: black;
+	border-radius: 0px 60px 60px 0px;
+	width: 100%;
+	height: 90px;
+}
+
+.number3 div.leftbot{
+	background: transparent;
+}
+
+.number3 div.rightbot{
+	background: black;
+	border-radius: 0px 60px 60px 0px;
+	width: 100%;
+	height: 108px;
+}
+
+.number3 div.leftex{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.number3 div.rightex{
+	background: transparent;
+	
+}
+
+
+
+/* 4 */
+
+.number4{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 350px;
+	padding-right: 20px;
+	top: 160px;
+
+}
+
+
+.number4 div.left{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.number4 div.right{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+.number4 div.leftbot{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.number4 div.rightbot{
+	background:  black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 105px;
+}
+
+.number4 div.leftex{
+	background: transparent;
+}
+
+
+.number4 div.rightex{
+	background:  transparent;
+}
+
+
+
+
+/* 5 */
+
+.number5{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 350px;
+	padding-right: 20px;
+	top: 160px;
+
+}
+
+
+.number5 div.left{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.number5 div.right{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+.number5 div.leftbot{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.number5 div.rightbot{
+	background:  black;
+	border-radius: 0px 60px 60px 0px;
+	width: 100%;
+	height: 108px;
+}
+
+.number5 div.leftex{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.number5 div.rightex{
+	background:  transparent;
+}
+
+
+
+
+/* 6 */
+
+.number6{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 350px;
+	padding-right: 20px;
+	top: 160px;
+
+}
+
+
+.number6 div.left{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.number6 div.right{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+.number6 div.leftbot{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 108px;
+}
+
+
+.number6 div.rightbot{
+	background:  black;
+	border-radius: 0px 60px 60px 0px;
+	width: 100%;
+	height: 108px;
+}
+
+.number6 div.leftex{
+	background: transparent;
+}
+
+
+.number6 div.rightex{
+	background:  transparent;
+}
+
+
+
+
+/* 7 */
+
+.number7{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 350px;
+	padding-right: 20px;
+	top: 160px;
+
+}
+
+
+.number7 div.left{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.number7 div.right{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+.number7 div.leftbot{
+	background: transparent;
+}
+
+
+.number7 div.rightbot{
+	background:  black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 108px;
+}
+
+.number7 div.leftex{
+	background: transparent;
+}
+
+
+.number7 div.rightex{
+	background:  transparent;
+}
+
+
+
+
+
+/* 8 */
+
+.number8{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 350px;
+	padding-right: 20px;
+	top: 160px;
+
+}
+
+
+.number8 div.left{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.number8 div.right{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+.number8 div.leftbot{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 60px;
+}
+
+
+.number8 div.rightbot{
+	background:  black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 60px;
+}
+
+.number8 div.leftex{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 50px;
+
+}
+
+
+.number8 div.rightex{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+
+/* 9 */
+
+.number9{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 350px;
+	padding-right: 20px;
+	top: 160px;
+
+}
+
+
+.number9 div.left{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.number9 div.right{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+.number9 div.leftbot{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.number9 div.rightbot{
+	background:  black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 108px;
+}
+
+.number9 div.leftex{
+	background: transparent;
+}
+
+
+.number9 div.rightex{
+	background:  transparent;
+}
 
 
 
 
 
 
+/* O */
+
+.number0{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	left: 350px;
+	padding-right: 20px;
+	top: 160px;
+
+}
+
+
+.number0 div.left{
+	background: black;
+	border-radius: 60px 0px 0px 60px;
+	width: 100%;
+	height: 165px;
+}
+
+
+.number0 div.right{
+	background: black;
+	border-radius: 0px 60px 60px 0px;
+	width: 100%;
+	height: 165px;
+}
+
+.number0 div.leftbot{
+	background: transparent;
+}
+
+
+.number0 div.rightbot{
+	background:  transparent;
+}
+
+.number0 div.leftex{
+	background: transparent;
+}
+
+
+.number0 div.rightex{
+	background:  transparent;
+}
 
 
 
+/* Punctuation */
 
 
 
+/* Period */
+
+.punct1{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 20px 20px 20px;
+	grid-template-columns: 20px 20px;
+	grid-gap: 3px 3px;
+	left: 550px;
+	padding-right: 20px;
+	top: 260px;
+
+}
+
+
+.punct1 div.left{
+	background: transparent;
+}
+
+
+.punct1 div.right{
+	background: transparent;
+}
+
+.punct1 div.leftbot{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 20px;
+}
+
+
+.punct1 div.rightbot{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 20px;
+}
+
+.punct1 div.leftex{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 20px;
+
+}
+
+
+.punct1 div.rightex{
+	background:  black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 20px;
+}
 
 
 
+/* Coma */
+
+.punct2{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 20px 20px 20px;
+	grid-template-columns: 20px 20px;
+	grid-gap: 3px 3px;
+	left: 550px;
+	padding-right: 20px;
+	top: 260px;
+
+}
 
 
+.punct2 div.left{
+	background: transparent;
+}
 
 
+.punct2 div.right{
+	background: transparent;
+}
 
+.punct2 div.leftbot{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 20px;
+}
+
+
+.punct2 div.rightbot{
+	background: transparent;
+}
+
+.punct2 div.leftex{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 20px;
+
+}
+
+
+.punct2 div.rightex{
+	background:  transparent;
+}
 
 
 
