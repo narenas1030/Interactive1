@@ -1,19 +1,1054 @@
 
-
+html{
+	height: 100%;
+	width: 100vw;
+}
 body{
-	margin: 0px;
-	padding: 0px;
-	width: 10000px;
-	height: auto;
+	margin: 0;
+	padding: 0;
+	max-width: 100vw;
+
 
 
 }
 
-div#container{
-	display: inline-block;
-	position: relative;
-	margin-top: 260px;
+#glyphW:hover{
+	transform: scale(2) rotate(0deg);
+}
+#glyphE:hover{
+	transform: scale(2) rotate(0deg);
+}
+#glyphL:hover{
+	transform: scale(2) rotate(0deg);
+}
+#glyphC:hover{
+	transform: scale(2) rotate(0deg);
+}
+#glyphO:hover{
+	transform: scale(2) rotate(0deg);
+}
+#glyphM:hover{
+	transform: scale(2) rotate(0deg);
+}
+#glyphE2:hover{
+	transform: scale(2) rotate(0deg);
+}
 
+
+
+/* welcome */
+
+
+
+
+div#container{
+	grid-template-columns: repeat(7, 8vw);
+    grid-template-rows: repeat(1, 16vw);
+    grid-gap: 1vw;
+    padding: calc(50vh - 24vw) 10vw;
+    display: grid;
+    position: relative;
+    align-content: center;
+    box-sizing: border-box;
+    height: auto;
+    padding-bottom: 500px;
+	padding-top: 100px;
+	padding-right: 0px;
+	padding-left: 130px;
+	transition: 1s ease;	
+
+
+}
+
+
+
+#glyphW{
+	width: 100%;
+	height: auto;
+	box-sizing: content-box;
+	transform: scale(2) ;
+	left: 0px;
+	top: 295px;
+	transition: 1s ease;
+}
+
+.glyph23{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows:repeat(3,50px);
+	grid-template-columns:repeat(1,50px 50px);
+	grid-gap: 8px 8px;
+		
+
+}
+
+.glyph23 div.left{
+	background: black;
+	border-radius: 0px 100% 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.glyph23 div.right{
+	background: black;
+	border-radius: 20vw 0px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+.glyph23 div.leftbot{
+	background: black;
+	border-radius: 0px 0px 20vw 0px;
+	width: 100%;
+	height: 110px;
+}
+
+
+.glyph23 div.rightbot{
+	background: black;
+	border-radius: 0px 0px 0px 20vw;
+	width: 100%;
+	height: 110px;
+}
+
+.glyph23 div.leftex{
+	background: transparent;
+}
+
+
+.glyph23 div.rightex{
+	background: transparent;
+}
+
+
+
+/* E */
+
+#glyphE{
+	width: 100%;
+	height: auto;
+	box-sizing: content-box;
+	transform: scale(2);
+	left: 100px;
+	transform: scale(2) ;
+	transition: 1s ease;
+	top: 300px;
+}
+
+
+.glyph5{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 108px;
+
+}
+
+
+.glyph5 div.left{
+	background: black;
+	border-radius: 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.glyph5 div.right{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 90px;
+}
+
+.glyph5 div.leftbot{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 108px;
+}
+
+
+.glyph5 div.rightbot{
+	background: transparent;
+}
+
+
+.glyph5 div.rightex{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+
+}
+.glyph5 div.leftex{
+	background: transparent;
+}
+
+
+
+
+
+	/* L */
+
+#glyphL{
+	width: 100%;
+	height: auto;
+	box-sizing: content-box;
+	transform: scale(2);
+	left: 180px;
+	top: 100px;
+	transform: scale(2) ;
+	transition: 1s ease;
+}
+
+
+
+.glyph12 {
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 0px;
+	padding-top: 40px;
+	top: 50px;
+}
+
+
+
+.glyph12 div.left{
+	background: transparent;
+	}
+
+.glyph12 div.right{
+	background: transparent;
+
+	}
+
+.glyph12 div.lefttop{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 225px;
+
+	}
+	.glyph12 div.righttop{
+	background: transparent;
+
+	}
+
+.glyph12 div.leftbot{
+	background: transparent;
+
+	}
+
+.glyph12 div.rightbot{
+	background: transparent;
+
+	}
+
+
+
+/* C */
+
+#glyphC{
+	width: 100%;
+	height: auto;
+	box-sizing: content-box;
+	transform: scale(2);
+	left: 170px;
+	top: 300px;
+	transform: scale(2) ;
+	transition: 1s ease;
+}
+
+
+.glyph3{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+    grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 108px;
+
+}
+
+
+.glyph3 div.left{
+	background: black;
+	border-radius: 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.glyph3 div.right{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+.glyph3 div.leftbot{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 108px;
+}
+
+
+.glyph3 div.rightbot{
+	background: transparent;
+}
+
+
+.glyph3 div.rightex{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+
+}
+
+
+/* O */
+
+#glyphO{
+	width: 100%;
+	height: auto;
+	box-sizing: content-box;
+	transform: scale(2);
+	left: 245px;
+	top: 300px;
+	transform: scale(2) ;
+	transition: 1s ease;
+}
+
+.glyph15{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 150px;
+
+}
+
+
+.glyph15 div.left{
+	background: black;
+	border-radius: 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.glyph15 div.right{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+.glyph15 div.leftbot{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 110px;
+}
+
+
+.glyph15 div.rightbot{
+	background:  black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 110px;
+}
+
+.glyph15 div.leftex{
+	background: transparent;
+}
+
+
+.glyph15 div.rightex{
+	background:  transparent;
+}
+
+
+/* M */
+
+#glyphM{
+	width: 100%;
+	height: auto;
+	box-sizing: content-box;
+	transform: scale(2);
+	left: 345px;
+	top: 180px;
+	transform: scale(2) ;
+	transition: 1s ease;
+}
+
+
+
+
+.glyph13{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 90px;
+
+}
+
+
+.glyph13 div.left{
+	background: transparent;
+}
+
+
+.glyph13 div.right{
+	background: transparent;
+}
+
+.glyph13 div.leftbot{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 167px;
+}
+
+
+.glyph13 div.rightbot{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 167px;
+}
+
+.glyph13 div.leftex{
+	background: transparent;
+}
+
+
+.glyph13 div.rightex{
+	background:  transparent;
+}
+
+
+
+
+#glyphE2{
+	width: 100%;
+	height: auto;
+	box-sizing: content-box;
+	transform: scale(2);
+	left: 450px;
+	top: 300px;
+	transform: scale(2) ;
+	transition: 1s ease;
+}
+
+
+
+
+
+/* two 2 */
+
+
+div#for2{
+	grid-template-columns: repeat(1, 8vw);
+    grid-template-rows: repeat(1, 16vw);
+    grid-gap: 1vw;
+    padding: calc(50vh - 24vw) 10vw;
+    display: grid;
+    position: relative;
+    align-content: center;
+    box-sizing: border-box;
+    height: auto;
+    padding-bottom: 500px;
+	
+	transition: 1s ease;
+}
+
+
+
+
+
+.glyphnumber2{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 160px;
+
+}
+
+
+
+#glyphnum2{
+	width: 100%;
+	height: auto;
+	box-sizing: content-box;
+	transform: scale(2);
+	left: 620px;
+	top: 200px;
+	transform: scale(2) ;
+	transition: 1s ease;
+}
+
+
+.glyphnumber2 div.left{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.glyphnumber2 div.right{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 80px;
+}
+
+.glyphnumber2 div.leftbot{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 108px;
+}
+
+.glyphnumber2 div.rightbot{
+	background: transparent;
+}
+
+.glyphnumber2 div.leftex{
+	background: transparent;
+}
+
+
+.glyphnumber2 div.rightex{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+
+/* Jeanne */
+
+
+#Jeanne{
+	grid-template-columns: repeat(6, 8vw);
+    grid-template-rows: repeat(1, 16vw);
+    grid-gap: 1vw;
+    padding: calc(50vh - 24vw) 10vw;
+    display: grid;
+    position: relative;
+    align-content: center;
+    box-sizing: border-box;
+    height: auto;
+    padding-left: 150px;
+    padding-bottom: 500px;
+	transition: 1s ease;	
+}
+
+
+/* J */
+
+
+
+#glyphJ{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 160px;
+	transform: scale(2) ;
+	transition: 1s ease;
+}
+
+.glyph10 {
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 108px;
+}
+
+
+
+.glyph10 div.left{
+	background: transparent;
+	}
+
+.glyph10 div.right{
+	background: transparent;
+
+	}
+
+.glyph10 div.lefttop{
+	background: transparent;
+
+	}
+.glyph10 div.righttop{
+	background: black;
+	border-radius: 60px 00px 0px 0px;
+	width: 100%;
+	height: 166px;
+
+	}
+
+.glyph10 div.leftbot{
+	background: transparent;
+
+
+	}
+
+.glyph10 div.rightbot{
+	background: transparent;
+
+	}
+
+.glyph10 div.leftdescender{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 50px;
+
+
+	}
+
+.glyph10 div.rightdescender{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+
+
+
+/* E */
+
+
+#glyphE3{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 160px;
+	left: 100px;
+	transform: scale(2) ;
+	transition: 1s ease;
+}
+.glyphe3{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 108px;
+
+}
+
+
+.glyphe3 div.left{
+	background: black;
+	border-radius: 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.glyphe3 div.right{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 90px;
+}
+
+.glyphe3 div.leftbot{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 108px;
+}
+
+
+.glyphe3 div.rightbot{
+	background: transparent;
+}
+
+
+.glyphe3 div.rightex{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+
+}
+.glyphe3 div.leftex{
+	background: transparent;
+}
+
+
+
+
+/* A */
+
+
+#glyphA{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 160px;
+	left: 200px;
+	transform: scale(2) ;
+	transition: 1s ease;
+}
+
+
+
+.glyph1{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 110px;
+
+}
+
+
+.glyph1 div.left{
+	background: black;
+	border-radius: 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.glyph1 div.right{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+.glyph1 div.leftbot{
+	background: black;
+	border-radius: 60px 0px 0px 60px;
+	width: 100%;
+	height: 105px;
+}
+
+
+.glyph1 div.rightbot{
+	background:  black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 105px;
+}
+
+.glyph1 div.leftex{
+	background: transparent;
+}
+
+
+.glyph1 div.rightex{
+	background:  transparent;
+}
+
+
+
+
+/* N */
+
+#glyphN{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 38px;
+	left: 300px;
+}
+
+.glyph14{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 90px;
+	transform: scale(2) ;
+	transition: 1s ease;
+
+}
+
+
+.glyph14 div.left{
+	background: transparent;
+}
+
+
+.glyph14 div.right{
+	background: transparent;
+}
+
+.glyph14 div.leftbot{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 167px;
+}
+
+
+.glyph14 div.rightbot{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 167px;
+}
+
+.glyph14 div.leftex{
+	background: transparent;
+}
+
+
+.glyph14 div.rightex{
+	background:  transparent;
+}
+
+
+
+
+
+/* N */
+
+#glyphN2{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 38px;
+	left: 400px;
+	transform: scale(2) ;
+	transition: 1s ease;
+}
+
+.glyph14_2{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 90px;
+
+}
+
+
+.glyph14_2 div.left{
+	background: transparent;
+}
+
+
+.glyph14_2 div.right{
+	background: transparent;
+}
+
+.glyph14_2 div.leftbot{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 167px;
+}
+
+
+.glyph14_2 div.rightbot{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 167px;
+}
+
+.glyph14_2 div.leftex{
+	background: transparent;
+}
+
+
+.glyph14_2 div.rightex{
+	background:  transparent;
+}
+
+
+
+/* E */
+
+
+#glyphE4{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 160px;
+	left: 500px;
+	transform: scale(2) ;
+	transition: 1s ease;
+}
+
+.glyphe4{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 108px;
+
+
+}
+
+
+.glyphe4 div.left{
+	background: black;
+	border-radius: 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.glyphe4 div.right{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 90px;
+}
+
+.glyphe4 div.leftbot{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 108px;
+}
+
+
+.glyphe4 div.rightbot{
+	background: transparent;
+}
+
+
+.glyphe4 div.rightex{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+
+}
+.glyphe4 div.leftex{
+	background: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Type Specimen */
+
+
+div#container2{
+	grid-template-columns: repeat(10, 8vw);
+    grid-template-rows: repeat(3, 16vw);
+    grid-gap: 1vw;
+    padding: 10vw 5.5vw;
+    display: grid;
+    position: relative;
+  	box-sizing: border-box;
+  	
+
+}
+
+div#container3{
+	grid-template-columns: repeat(10, 8vw);
+    grid-template-rows: repeat(2, 16vw);
+    grid-gap: .5vw;
+    padding: 10vw 5.5vw;
+    box-sizing: border-box;
+    display: grid;
+	
 
 }
 
@@ -26,7 +1061,6 @@ div#container{
 	grid-template-rows: 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 300px;
 	padding-right: 20px;
 	top: 110px;
 
@@ -82,10 +1116,7 @@ div#container{
 	grid-template-rows: 50px 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 300px;
 	padding-right: 20px;
-	align-content:space-around;
-	justify-content: space-between;
 	top: 50px;
 }
 
@@ -141,9 +1172,7 @@ div#container{
 	float: left;
 	grid-template-rows: 50px 50px 50px;
 	grid-template-columns: 50px 50px;
-	grid-row-end: 3;
-	grid-gap: 8px 8px;
-	left: 300px;
+    grid-gap: 8px 8px;
 	padding-right: 20px;
 	top: 108px;
 
@@ -198,10 +1227,7 @@ div#container{
 	grid-template-rows: 50px 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 300px;
 	padding-right: 20px;
-	align-content:space-around;
-	justify-content: space-between;
 	top: 50px;
 }
 
@@ -257,9 +1283,7 @@ div#container{
 	float: left;
 	grid-template-rows: 50px 50px 50px;
 	grid-template-columns: 50px 50px;
-	grid-row-end: 3;
 	grid-gap: 8px 8px;
-	left: 300px;
 	padding-right: 20px;
 	top: 108px;
 
@@ -315,10 +1339,7 @@ div#container{
 	grid-template-rows: 50px 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 300px;
 	padding-right: 20px;
-	align-content:space-around;
-	justify-content: space-between;
 	top: 50px;
 }
 
@@ -376,10 +1397,8 @@ div#container{
 	grid-template-rows: 50px 50px 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 300px;
 	padding-right: 20px;
-	align-content:space-around;
-	justify-content: space-between;
+	
 	top: 108px;
 }
 
@@ -446,10 +1465,7 @@ div#container{
 	grid-template-rows: 50px 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 300px;
 	padding-right: 20px;
-	align-content:space-around;
-	justify-content: space-between;
 	top: 50px;
 }
 
@@ -497,16 +1513,13 @@ div#container{
 	}
 
 
-
-div#container2{
-	display: inline-block;
+.forletterI{
+	display: grid;
 	position: relative;
+	grid-template-columns: 100px;
+	width: 100%;
 
 }
-
-
-
-
 
 	/* I */
 
@@ -514,15 +1527,11 @@ div#container2{
 	position: relative;
 	display: grid;
 	float: left;
-	grid-template-rows: 50px 50px 50px;
-	grid-template-columns: 50px 50px;
+	grid-template-rows: 50px 50px ;
+	grid-template-columns: 50px ;
 	grid-gap: 8px 8px;
-	left: 300px;
-	padding-right: 0px;
-	padding-top: 40px;
-	align-content:space-around;
-	justify-content: space-between;
 	top: 50px;
+	
 }
 
 
@@ -535,10 +1544,6 @@ div#container2{
 
 	}
 
-.letter9 div.right{
-	background: transparent;
-
-	}
 
 .letter9 div.lefttop{
 	background: black;
@@ -547,22 +1552,6 @@ div#container2{
 	height: 50px;
 
 	}
-	.letter9 div.righttop{
-	background: transparent;
-
-	}
-
-.letter9 div.leftbot{
-	background: transparent;
-
-	}
-
-.letter9 div.rightbot{
-	background: transparent;
-
-	}
-
-
 
 
 
@@ -576,11 +1565,8 @@ div#container2{
 	grid-template-rows: 50px 50px 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 260px;
 	padding-right: 20px;
-	align-content:space-around;
-	justify-content: space-between;
-	top: 150px;
+	top: 108px;
 }
 
 
@@ -649,11 +1635,8 @@ div#container2{
 	grid-template-rows: 50px 50px 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 280px;
 	padding-right: 20px;
 	padding-top: 40px;
-	align-content:space-around;
-	justify-content: space-between;
 	top: 50px;
 }
 
@@ -723,11 +1706,8 @@ div#container2{
 	grid-template-rows: 50px 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 300px;
 	padding-right: 0px;
 	padding-top: 40px;
-	align-content:space-around;
-	justify-content: space-between;
 	top: 50px;
 }
 
@@ -773,7 +1753,6 @@ div#container2{
 	grid-template-rows: 50px 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 270px;
 	padding-right: 20px;
 	top: 90px;
 
@@ -826,7 +1805,6 @@ div#container2{
 	grid-template-rows: 50px 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 270px;
 	padding-right: 20px;
 	top: 90px;
 
@@ -877,7 +1855,6 @@ div#container2{
 	grid-template-rows: 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 270px;
 	padding-right: 20px;
 	top: 150px;
 
@@ -934,10 +1911,7 @@ div#container2{
 	grid-template-rows: 50px 50px 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 275px;
 	padding-right: 20px;
-	align-content:space-around;
-	justify-content: space-between;
 	top: 155px;
 }
 
@@ -1005,10 +1979,7 @@ div#container2{
 	grid-template-rows: 50px 50px 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 275px;
 	padding-right: 20px;
-	align-content:space-around;
-	justify-content: space-between;
 	top: 155px;
 }
 
@@ -1079,7 +2050,6 @@ div#container2{
 	grid-template-rows: 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 280px;
 	padding-right: 20px;
 	top: 160px;
 
@@ -1133,7 +2103,6 @@ div#container2{
 	grid-template-rows: 50px 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 270px;
 	padding-right: 20px;
 	top: 160px;
 
@@ -1192,11 +2161,8 @@ div#container2{
 	grid-template-rows: 50px 50px 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 280px;
 	padding-right: 20px;
 	padding-top: 40px;
-	align-content:space-around;
-	justify-content: space-between;
 	top: 60px;
 }
 
@@ -1259,7 +2225,6 @@ div#container2{
 	grid-template-rows: 50px 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 280px;
 	padding-right: 20px;
 	top: 100px;
 
@@ -1310,7 +2275,6 @@ div#container2{
 	grid-template-rows: 50px 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 280px;
 	padding-right: 20px;
 	top: 100px;
 
@@ -1367,7 +2331,6 @@ div#container2{
 	grid-template-rows: 50px 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 280px;
 	padding-right: 20px;
 	top: 160px;
 
@@ -1422,7 +2385,6 @@ div#container2{
 	grid-template-rows: 50px 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 280px;
 	padding-right: 20px;
 	top: 160px;
 
@@ -1478,10 +2440,7 @@ div#container2{
 	grid-template-rows: 50px 50px 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 275px;
 	padding-right: 20px;
-	align-content:space-around;
-	justify-content: space-between;
 	top: 155px;
 }
 
@@ -1553,7 +2512,6 @@ div#container2{
 	grid-template-rows: 50px 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 270px;
 	padding-right: 20px;
 	top: 160px;
 
@@ -1611,7 +2569,6 @@ div#container2{
 	grid-template-rows: 50px 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 400px;
 	padding-right: 20px;
 	top: 100px;
 
@@ -1654,7 +2611,7 @@ div#container2{
 
 
 
-/* 3 */
+/* 2 */
 
 .number2{
 	position: relative;
@@ -1663,7 +2620,6 @@ div#container2{
 	grid-template-rows: 50px 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 350px;
 	padding-right: 20px;
 	top: 160px;
 
@@ -1703,7 +2659,7 @@ div#container2{
 
 .number2 div.rightex{
 	background: black;
-	border-radius: 60px 0px 0px 0px;
+	border-radius: 0px 60px 0px 0px;
 	width: 100%;
 	height: 50px;
 }
@@ -1721,7 +2677,6 @@ div#container2{
 	grid-template-rows: 50px 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 350px;
 	padding-right: 20px;
 	top: 160px;
 
@@ -1778,7 +2733,6 @@ div#container2{
 	grid-template-rows: 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 350px;
 	padding-right: 20px;
 	top: 160px;
 
@@ -1836,7 +2790,6 @@ div#container2{
 	grid-template-rows: 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 350px;
 	padding-right: 20px;
 	top: 160px;
 
@@ -1897,7 +2850,6 @@ div#container2{
 	grid-template-rows: 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 350px;
 	padding-right: 20px;
 	top: 160px;
 
@@ -1955,7 +2907,6 @@ div#container2{
 	grid-template-rows: 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 350px;
 	padding-right: 20px;
 	top: 160px;
 
@@ -2011,7 +2962,6 @@ div#container2{
 	grid-template-rows: 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 350px;
 	padding-right: 20px;
 	top: 160px;
 
@@ -2075,7 +3025,6 @@ div#container2{
 	grid-template-rows: 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 350px;
 	padding-right: 20px;
 	top: 160px;
 
@@ -2135,7 +3084,6 @@ div#container2{
 	grid-template-rows: 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
-	left: 350px;
 	padding-right: 20px;
 	top: 160px;
 
@@ -2174,132 +3122,6 @@ div#container2{
 .number0 div.rightex{
 	background:  transparent;
 }
-
-
-
-/* Punctuation */
-
-
-
-/* Period */
-
-.punct1{
-	position: relative;
-	display: grid;
-	float: left;
-	grid-template-rows: 20px 20px 20px;
-	grid-template-columns: 20px 20px;
-	grid-gap: 3px 3px;
-	left: 550px;
-	padding-right: 20px;
-	top: 260px;
-
-}
-
-
-.punct1 div.left{
-	background: transparent;
-}
-
-
-.punct1 div.right{
-	background: transparent;
-}
-
-.punct1 div.leftbot{
-	background: black;
-	border-radius: 60px 0px 0px 0px;
-	width: 100%;
-	height: 20px;
-}
-
-
-.punct1 div.rightbot{
-	background: black;
-	border-radius: 0px 60px 0px 0px;
-	width: 100%;
-	height: 20px;
-}
-
-.punct1 div.leftex{
-	background: black;
-	border-radius: 0px 0px 0px 60px;
-	width: 100%;
-	height: 20px;
-
-}
-
-
-.punct1 div.rightex{
-	background:  black;
-	border-radius: 0px 0px 60px 0px;
-	width: 100%;
-	height: 20px;
-}
-
-
-
-/* Coma */
-
-.punct2{
-	position: relative;
-	display: grid;
-	float: left;
-	grid-template-rows: 20px 20px 20px;
-	grid-template-columns: 20px 20px;
-	grid-gap: 3px 3px;
-	left: 550px;
-	padding-right: 20px;
-	top: 260px;
-
-}
-
-
-.punct2 div.left{
-	background: transparent;
-}
-
-
-.punct2 div.right{
-	background: transparent;
-}
-
-.punct2 div.leftbot{
-	background: black;
-	border-radius: 60px 0px 0px 0px;
-	width: 100%;
-	height: 20px;
-}
-
-
-.punct2 div.rightbot{
-	background: transparent;
-}
-
-.punct2 div.leftex{
-	background: black;
-	border-radius: 0px 0px 60px 0px;
-	width: 100%;
-	height: 20px;
-
-}
-
-
-.punct2 div.rightex{
-	background:  transparent;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
