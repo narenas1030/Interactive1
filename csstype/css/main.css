@@ -1,8 +1,15 @@
+* {
+	transform-origin: center center;
+}
+
 
 html{
 	height: 100%;
 	width: 100vw;
 }
+
+
+
 body{
 	margin: 0;
 	padding: 0;
@@ -13,26 +20,89 @@ body{
 }
 
 #glyphW:hover{
-	transform: scale(2) rotate(0deg);
+	transform: scale(2) rotateY(360deg);
 }
 #glyphE:hover{
-	transform: scale(2) rotate(0deg);
+	transform: scale(2) rotateY(360deg);
 }
 #glyphL:hover{
-	transform: scale(2) rotate(0deg);
+	transform: scale(2) rotateY(360deg);
 }
 #glyphC:hover{
-	transform: scale(2) rotate(0deg);
+	transform: scale(2) rotateY(360deg);
 }
 #glyphO:hover{
-	transform: scale(2) rotate(0deg);
+	transform: scale(2) rotateY(360deg);
 }
 #glyphM:hover{
-	transform: scale(2) rotate(0deg);
+	transform: scale(2) rotateY(360deg);
 }
 #glyphE2:hover{
-	transform: scale(2) rotate(0deg);
+	transform: scale(2) rotateY(360deg);
 }
+
+
+
+#container:hover{
+	transform: rotateZ(0deg);
+}
+
+
+
+#glyphnum2:hover{
+	transform: scale(4) rotate(360deg);
+}
+
+
+
+
+#Jeanne:hover{
+	transform: rotateZ(0deg);
+}
+
+
+
+#glyphJ:hover{
+	transform: scale(2) translateY(50px) translateX(-10px) rotate(-15deg);
+}
+#glyphE3:hover{
+	transform: scale(2) translateY(-50px) translateX(10px);
+}
+
+#glyphA:hover{
+	transform: scale(2) translateY(50px) translateX(-10px);
+}
+
+#glyphN:hover{
+	transform: scale(2) translateY(50px) translateX(10px);
+}
+#glyphN2:hover{
+	transform: scale(2) translateY(50px) translateX(-10px);
+}
+
+#glyphE4:hover{
+	transform: scale(2) translateY(-50px) translateX(10px) rotate(15deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -55,7 +125,8 @@ div#container{
 	padding-top: 100px;
 	padding-right: 0px;
 	padding-left: 130px;
-	transition: 1s ease;	
+	transition: .5s ease;	
+	
 
 
 }
@@ -68,8 +139,8 @@ div#container{
 	box-sizing: content-box;
 	transform: scale(2) ;
 	left: 0px;
-	top: 295px;
-	transition: 1s ease;
+	top: 300px;
+	transition: .5s ease;
 }
 
 .glyph23{
@@ -480,8 +551,9 @@ div#for2{
     box-sizing: border-box;
     height: auto;
     padding-bottom: 500px;
-	
-	transition: 1s ease;
+	padding-top: 100px;
+	transition: .5s ease;
+	background-color: red;
 }
 
 
@@ -496,7 +568,7 @@ div#for2{
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
 	padding-right: 20px;
-	top: 160px;
+	top: 90px;
 
 }
 
@@ -507,8 +579,8 @@ div#for2{
 	height: auto;
 	box-sizing: content-box;
 	transform: scale(2);
-	left: 620px;
-	top: 200px;
+	left: 670px;
+	top: 400px;
 	transform: scale(2) ;
 	transition: 1s ease;
 }
@@ -569,7 +641,8 @@ div#for2{
     height: auto;
     padding-left: 150px;
     padding-bottom: 500px;
-	transition: 1s ease;	
+    padding-top: 100px;
+	transition: .5s ease;	
 }
 
 
@@ -585,9 +658,9 @@ div#for2{
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
 	padding-right: 20px;
-	top: 160px;
+	top: 260px;
 	transform: scale(2) ;
-	transition: 1s ease;
+	transition: .5s ease;
 }
 
 .glyph10 {
@@ -665,10 +738,10 @@ div#for2{
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
 	padding-right: 20px;
-	top: 160px;
+	top: 260px;
 	left: 100px;
 	transform: scale(2) ;
-	transition: 1s ease;
+	transition: .5s ease;
 }
 .glyphe3{
 	position: relative;
@@ -736,10 +809,10 @@ div#for2{
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
 	padding-right: 20px;
-	top: 160px;
+	top: 260px;
 	left: 200px;
 	transform: scale(2) ;
-	transition: 1s ease;
+	transition: .5s ease;
 }
 
 
@@ -809,7 +882,7 @@ div#for2{
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
 	padding-right: 20px;
-	top: 38px;
+	top: 138px;
 	left: 300px;
 }
 
@@ -823,7 +896,7 @@ div#for2{
 	padding-right: 20px;
 	top: 90px;
 	transform: scale(2) ;
-	transition: 1s ease;
+	transition: .5s ease;
 
 }
 
@@ -875,10 +948,10 @@ div#for2{
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
 	padding-right: 20px;
-	top: 38px;
+	top: 138px;
 	left: 400px;
 	transform: scale(2) ;
-	transition: 1s ease;
+	transition: .5s ease;
 }
 
 .glyph14_2{
@@ -940,10 +1013,10 @@ div#for2{
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
 	padding-right: 20px;
-	top: 160px;
+	top: 260px;
 	left: 500px;
 	transform: scale(2) ;
-	transition: 1s ease;
+	transition: .5s ease;
 }
 
 .glyphe4{
@@ -998,6 +1071,383 @@ div#for2{
 .glyphe4 div.leftex{
 	background: transparent;
 }
+
+
+
+
+
+/* Typeface */
+
+
+#Typeface{
+	grid-template-columns: repeat(4, 8vw);
+    grid-template-rows: repeat(1, 16vw);
+    grid-gap: 1vw;
+    padding: calc(50vh - 24vw) 10vw;
+    display: grid;
+    position: relative;
+    align-content: center;
+    box-sizing: border-box;
+    height: auto;
+    padding-left: 150px;
+    padding-bottom: 500px;
+	transition: 1s ease;	
+}
+
+
+
+
+/* T */
+
+
+#glyphT{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 160px;
+	left: 300px;
+	transform: scale(2) ;
+	transition: 1s ease;
+
+}
+
+
+
+.glyph20 {
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	padding-top: 40px;
+	top: 60px;
+}
+
+
+
+.glyph20 div.left{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 166px;
+
+	}
+
+.glyph20 div.right{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+
+.glyph20 div.lefttop{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+.glyph20 div.righttop{
+	background: transparent;
+
+	}
+
+.glyph20 div.leftbot{
+	background: transparent;
+
+	}
+
+.glyph20 div.rightbot{
+	background: transparent;
+
+	}
+
+.glyph20 div.leftex{
+	background: transparent;
+
+}
+
+.glyph20 div.rightex{
+	background: transparent;
+
+	}
+
+
+
+
+
+/* Y */
+
+
+#glyphY{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 240px;
+	left: 400px;
+	transform: scale(2) ;
+	transition: 1s ease;
+}
+
+
+.glyph25 {
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 155px;
+}
+
+
+
+.glyph25 div.left{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 107px;
+	}
+
+.glyph25 div.right{
+		background: transparent;
+
+	}
+
+.glyph25 div.lefttop{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+.glyph25 div.righttop{
+	
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 166px;
+
+	}
+
+.glyph25 div.leftbot{
+	background: transparent;
+
+
+	}
+
+.glyph25 div.rightbot{
+	background: transparent;
+
+	}
+
+.glyph25 div.leftdescender{
+	background: transparent;
+
+
+	}
+
+.glyph25 div.rightdescender{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+
+
+/* P */
+
+
+#glyphP{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 240px;
+	left: 500px;
+	transform: scale(2) ;
+	transition: 1s ease;
+
+}
+
+.glyph16 {
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 155px;
+}
+
+
+
+.glyph16 div.left{
+	background: transparent;
+	}
+
+.glyph16 div.right{
+		background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 107px;
+
+	}
+
+.glyph16 div.lefttop{
+	background: black;
+	border-radius: 60px 00px 0px 0px;
+	width: 100%;
+	height: 166px;
+
+	}
+.glyph16 div.righttop{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+
+.glyph16 div.leftbot{
+	background: transparent;
+
+
+	}
+
+.glyph16 div.rightbot{
+	background: transparent;
+
+	}
+
+.glyph16 div.leftdescender{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+
+
+	}
+
+.glyph16 div.rightdescender{
+	background: transparent;
+
+	}
+
+
+
+
+
+/* E */
+
+#glyphE6{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 240px;
+	left: 590px;
+	transform: scale(2) ;
+	transition: 1s ease;
+
+}
+
+.glyphE5{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 108px;
+
+}
+
+
+.glyphE5 div.left{
+	background: black;
+	border-radius: 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.glyphE5 div.right{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 90px;
+}
+
+.glyphE5 div.leftbot{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 108px;
+}
+
+
+.glyphE5 div.rightbot{
+	background: transparent;
+}
+
+
+.glyphE5 div.rightex{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+
+}
+.glyphE5 div.leftex{
+	background: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
