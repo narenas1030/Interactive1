@@ -176,24 +176,39 @@ body{
 
 #glyphW:hover{
 	transform: scale(2) rotateY(360deg);
+	opacity: .5;
+	filter: invert(100%);
+
 }
 #glyphE:hover{
 	transform: scale(2) rotateY(360deg);
+	opacity: .5;
+	filter: invert(100%);
 }
 #glyphL:hover{
 	transform: scale(2) rotateY(360deg);
+	opacity: .5;
+	filter: invert(100%);
 }
 #glyphC:hover{
 	transform: scale(2) rotateY(360deg);
+	opacity: .5;
+	filter: invert(100%);
 }
 #glyphO:hover{
 	transform: scale(2) rotateY(360deg);
+	opacity: .5;
+	filter: invert(100%);
 }
 #glyphM:hover{
 	transform: scale(2) rotateY(360deg);
+	opacity: .5;
+	filter: invert(100%);
 }
 #glyphE2:hover{
 	transform: scale(2) rotateY(360deg);
+	opacity: .5;
+	filter: invert(100%);
 }
 
 
@@ -746,7 +761,6 @@ div#for2{
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: fixed;
-	height: auto;
 	position: relative;
 
 }
