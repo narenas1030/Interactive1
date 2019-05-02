@@ -20,6 +20,160 @@ body{
 
 }
 
+
+#fixed{
+	background: red;
+	z-index: 10;
+	position: fixed;
+	filter: invert(100%);
+	opacity: .1
+}
+
+
+/* A */
+
+
+#initialA{
+	position:absolute;
+	z-index: 20;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 600px;
+	left: 200px;
+	transform: scale(1) ;
+	transition: .5s ease;
+	
+}
+
+
+
+.fixed2{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 110px;
+
+}
+
+
+.fixed2 div.left{
+	background: black;
+	border-radius: 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.fixed2 div.right{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+.fixed2 div.leftbot{
+	background: black;
+	border-radius: 60px 0px 0px 60px;
+	width: 100%;
+	height: 105px;
+}
+
+
+.fixed2 div.rightbot{
+	background:  black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 105px;
+}
+
+.fixed2 div.leftex{
+	background: transparent;
+}
+
+
+.fixed2 div.rightex{
+	background:  transparent;
+}
+
+
+
+
+/* N */
+
+#intialN{
+	position: absolute;
+	z-index: 20;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 538px;
+	left: 100px;
+}
+
+.fixed1{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 90px;
+	transform: scale(1) ;
+	transition: .5s ease;
+
+}
+
+
+.fixed1 div.left{
+	background: transparent;
+}
+
+
+.fixed1 div.right{
+	background: transparent;
+}
+
+.fixed1 div.leftbot{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 167px;
+}
+
+
+.fixed1 div.rightbot{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 167px;
+}
+
+.fixed1 div.leftex{
+	background: transparent;
+}
+
+
+.fixed1 div.rightex{
+	background:  transparent;
+}
+
+
+
+
+
+
 #glyphW:hover{
 	transform: scale(2) rotateY(360deg);
 }
@@ -161,9 +315,6 @@ div#container{
 	padding-right: 0px;
 	padding-left: 130px;
 	transition: .5s ease;	
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: fixed;
 	
 
 
@@ -592,7 +743,12 @@ div#for2{
 	transition: .5s ease;
 	background-color: red;
 	background-position: 100% auto;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: fixed;
+	height: auto;
 	position: relative;
+
 }
 
 
