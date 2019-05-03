@@ -1964,7 +1964,8 @@ p {
 	line-height: 31px;
 	display: block;position: relative;
 	font-family: 'Teko', sans-serif;
-	letter-spacing: .5px
+	letter-spacing: .5px;
+	font-kerning:auto;
 }
 
 
