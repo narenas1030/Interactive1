@@ -178,40 +178,22 @@ body{
 
 #glyphW:hover{
 	transform: scale(2) rotateY(360deg);
-	opacity: .5;
 	filter: invert(100%);
 
 }
-#glyphE:hover{
+#glyphI:hover{
 	transform: scale(2) rotateY(360deg);
-	opacity: .5;
 	filter: invert(100%);
 }
-#glyphL:hover{
+#glyphT2:hover{
 	transform: scale(2) rotateY(360deg);
-	opacity: .5;
 	filter: invert(100%);
 }
-#glyphC:hover{
+#glyphH:hover{
 	transform: scale(2) rotateY(360deg);
-	opacity: .5;
 	filter: invert(100%);
 }
-#glyphO:hover{
-	transform: scale(2) rotateY(360deg);
-	opacity: .5;
-	filter: invert(100%);
-}
-#glyphM:hover{
-	transform: scale(2) rotateY(360deg);
-	opacity: .5;
-	filter: invert(100%);
-}
-#glyphE2:hover{
-	transform: scale(2) rotateY(360deg);
-	opacity: .5;
-	filter: invert(100%);
-}
+
 
 
 
@@ -221,7 +203,7 @@ body{
 
 
 
-#glyphnum2:hover{
+#thisA:hover{
 	transform: scale(4) rotate(360deg);
 }
 
@@ -306,18 +288,112 @@ body{
 }
 
 
+#glyphP2:hover{
+ transform: scale(4);
+
+ opacity: .5;
+
+}
+
+#glyphL2:hover{
+ transform: scale(4);
+
+ opacity: .5;
+}
+
+#glyphA2:hover{
+	transform: scale(4);
+
+ opacity: .5;
+}
+
+#glyphY2:hover{
+transform: scale(4);
+
+ opacity: .5;
+}
 
 
 
 
+#thisfour:hover{
+
+	transform: scale(3) translate(800px)rotate(20deg);
+	filter: blur(30px);
+
+}
 
 
-/* welcome */
+
+#thisfive:hover{
+	transform: scale(5) translateY(300px);
+	opacity: .5;
+	
+
+
+
+}
+
+#thissix:hover{
+	transform: scale(1) rotate(360deg) translateX(300px);
+	
+
+	
+}
 
 
 
 
-div#container{
+#thisseven:hover{
+	transform: scale(3) skewY(180deg) rotateZ(10deg);
+}
+
+
+
+#glyphT22:hover{
+  animation-name: slide;
+  animation-duration: 0.05s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide{
+	from{transform: scale(2) rotateX(90deg); filter:blur(0);}
+	to{transform:scale(2) rotate(360deg);filter:blur(5px);}
+}
+
+#glyphY22:hover{
+  animation-name: slide;
+  animation-duration: 0.05s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+
+
+#glyphP22:hover{
+  animation-name: slide;
+  animation-duration: 0.05s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+#glyphE62:hover{
+  animation-name: slide;
+  animation-duration: 0.05s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+
+
+
+/* play */
+
+
+
+
+div#play{
 	grid-template-columns: repeat(7, 8vw);
     grid-template-rows: repeat(1, 16vw);
     grid-gap: 1vw;
@@ -331,7 +407,7 @@ div#container{
 	padding-top: 170px;
 	padding-right: 0px;
 	padding-left: 130px;
-	transition: .5s ease;	
+	transition: 1s ease;	
 	overflow: hidden;
 	
 
@@ -339,155 +415,107 @@ div#container{
 }
 
 
+/* P */
 
-#glyphW{
-	width: 100%;
-	height: auto;
-	box-sizing: content-box;
-	transform: scale(2) ;
-	left: 0px;
-	top: 300px;
-	transition: 1s ease;
-}
-
-.glyph23{
-	position: relative;
-	display: grid;
-	float: left;
-	grid-template-rows:repeat(3,50px);
-	grid-template-columns:repeat(1,50px 50px);
-	grid-gap: 8px 8px;
-		
-
-}
-
-.glyph23 div.left{
-	background: black;
-	border-radius: 0px 100% 0px 0px;
-	width: 100%;
-	height: 50px;
-}
-
-
-.glyph23 div.right{
-	background: black;
-	border-radius: 20vw 0px 0px 0px;
-	width: 100%;
-	height: 50px;
-}
-
-.glyph23 div.leftbot{
-	background: black;
-	border-radius: 0px 0px 20vw 0px;
-	width: 100%;
-	height: 110px;
-}
-
-
-.glyph23 div.rightbot{
-	background: black;
-	border-radius: 0px 0px 0px 20vw;
-	width: 100%;
-	height: 110px;
-}
-
-.glyph23 div.leftex{
-	background: transparent;
-}
-
-
-.glyph23 div.rightex{
-	background: transparent;
-}
-
-
-
-/* E */
-
-#glyphE{
+#glyphP2{
 	width: 100%;
 	height: auto;
 	box-sizing: content-box;
 	transform: scale(2);
-	left: 100px;
-	transform: scale(2) ;
-	transition: 1s ease;
-	top: 300px;
+	left: 330px;
+	transition: .5s ease;
+	top: 210px;
 }
 
-
-.glyph5{
+.glyph23P {
 	position: relative;
 	display: grid;
 	float: left;
-	grid-template-rows: 50px 50px 50px;
+	grid-template-rows: 50px 50px 50px 50px;
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
 	padding-right: 20px;
-	top: 108px;
-
+	top: 155px;
 }
 
 
-.glyph5 div.left{
-	background: black;
-	border-radius: 60px 0px 0px;
+
+.glyph23P div.left{
+	background: transparent;
+	}
+
+.glyph23P div.right{
+		background: black;
+	border-radius: 0px 0px 60px 0px;
 	width: 100%;
-	height: 50px;
-}
+	height: 107px;
 
+	}
 
-.glyph5 div.right{
+.glyph23P div.lefttop{
+	background: black;
+	border-radius: 60px 00px 0px 0px;
+	width: 100%;
+	height: 166px;
+
+	}
+.glyph23P div.righttop{
 	background: black;
 	border-radius: 0px 60px 0px 0px;
 	width: 100%;
-	height: 90px;
-}
+	height: 50px;
 
-.glyph5 div.leftbot{
-	background: black;
-	border-radius: 0px 0px 0px 60px;
-	width: 100%;
-	height: 108px;
-}
+	}
 
-
-.glyph5 div.rightbot{
+.glyph23P div.leftbot{
 	background: transparent;
-}
 
 
-.glyph5 div.rightex{
+	}
+
+.glyph23P div.rightbot{
+	background: transparent;
+
+	}
+
+.glyph23P div.leftdescender{
 	background: black;
 	border-radius: 0px 0px 60px 0px;
 	width: 100%;
 	height: 50px;
 
-}
-.glyph5 div.leftex{
-	background: transparent;
-}
 
+	}
+
+.glyph23P div.rightdescender{
+	background: transparent;
+
+	}
 
 
 
 
 	/* L */
 
-#glyphL{
+
+#glyphL2{
 	width: 100%;
 	height: auto;
 	box-sizing: content-box;
 	transform: scale(2);
-	left: 180px;
-	top: 100px;
+	left: 440px;
 	transform: scale(2) ;
 	transition: 1s ease;
+	top: 2px;
 }
 
 
 
-.glyph12 {
+
+
+
+
+.glyph12L {
 	position: relative;
 	display: grid;
 	float: left;
@@ -497,121 +525,63 @@ div#container{
 	padding-right: 0px;
 	padding-top: 40px;
 	top: 50px;
+	left: 30px;
 }
 
 
 
-.glyph12 div.left{
+.glyph12L div.left{
 	background: transparent;
 	}
 
-.glyph12 div.right{
+.glyph12L div.right{
 	background: transparent;
 
 	}
 
-.glyph12 div.lefttop{
+.glyph12L div.lefttop{
 	background: black;
 	border-radius: 0px 60px 0px 0px;
 	width: 100%;
 	height: 225px;
 
 	}
-	.glyph12 div.righttop{
+	.glyph12L div.righttop{
 	background: transparent;
 
 	}
 
-.glyph12 div.leftbot{
+.glyph12L div.leftbot{
 	background: transparent;
 
 	}
 
-.glyph12 div.rightbot{
+.glyph12L div.rightbot{
 	background: transparent;
 
 	}
 
 
-
-/* C */
-
-#glyphC{
-	width: 100%;
-	height: auto;
-	box-sizing: content-box;
-	transform: scale(2);
-	left: 170px;
-	top: 300px;
-	transform: scale(2) ;
-	transition: 1s ease;
-}
+/* A */
 
 
-.glyph3{
+#glyphA2{
 	position: relative;
 	display: grid;
 	float: left;
 	grid-template-rows: 50px 50px 50px;
 	grid-template-columns: 50px 50px;
-    grid-gap: 8px 8px;
+	grid-gap: 8px 8px;
 	padding-right: 20px;
-	top: 108px;
-
-}
-
-
-.glyph3 div.left{
-	background: black;
-	border-radius: 60px 0px 0px;
-	width: 100%;
-	height: 50px;
-}
-
-
-.glyph3 div.right{
-	background: black;
-	border-radius: 0px 0px 60px 0px;
-	width: 100%;
-	height: 50px;
-}
-
-.glyph3 div.leftbot{
-	background: black;
-	border-radius: 0px 0px 0px 60px;
-	width: 100%;
-	height: 108px;
-}
-
-
-.glyph3 div.rightbot{
-	background: transparent;
-}
-
-
-.glyph3 div.rightex{
-	background: black;
-	border-radius: 0px 60px 0px 0px;
-	width: 100%;
-	height: 50px;
-
-}
-
-
-/* O */
-
-#glyphO{
-	width: 100%;
-	height: auto;
-	box-sizing: content-box;
-	transform: scale(2);
-	left: 245px;
-	top: 300px;
+	top: 210px;
+	left: 450px;
 	transform: scale(2) ;
-	transition: 1s ease;
+	transition: .5s ease;
 }
 
-.glyph15{
+
+
+.glyph1A{
 	position: relative;
 	display: grid;
 	float: left;
@@ -619,12 +589,12 @@ div#container{
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
 	padding-right: 20px;
-	top: 150px;
+	top: 110px;
 
 }
 
 
-.glyph15 div.left{
+.glyph1A div.left{
 	background: black;
 	border-radius: 60px 0px 0px;
 	width: 100%;
@@ -632,55 +602,45 @@ div#container{
 }
 
 
-.glyph15 div.right{
+.glyph1A div.right{
 	background: black;
 	border-radius: 0px 60px 0px 0px;
 	width: 100%;
 	height: 50px;
 }
 
-.glyph15 div.leftbot{
+.glyph1A div.leftbot{
 	background: black;
+	border-radius: 60px 0px 0px 60px;
+	width: 100%;
+	height: 105px;
+}
+
+
+.glyph1A div.rightbot{
+	background:  black;
 	border-radius: 0px 0px 0px 60px;
 	width: 100%;
-	height: 110px;
+	height: 105px;
 }
 
-
-.glyph15 div.rightbot{
-	background:  black;
-	border-radius: 0px 0px 60px 0px;
-	width: 100%;
-	height: 110px;
-}
-
-.glyph15 div.leftex{
+.glyph1A div.leftex{
 	background: transparent;
 }
 
 
-.glyph15 div.rightex{
+.glyph1A div.rightex{
 	background:  transparent;
 }
 
 
-/* M */
 
-#glyphM{
-	width: 100%;
-	height: auto;
-	box-sizing: content-box;
-	transform: scale(2);
-	left: 345px;
-	top: 180px;
-	transform: scale(2) ;
-	transition: 1s ease;
-}
+
+/* Y */
 
 
 
-
-.glyph13{
+#glyphY2{
 	position: relative;
 	display: grid;
 	float: left;
@@ -688,57 +648,85 @@ div#container{
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
 	padding-right: 20px;
-	top: 90px;
-
+	top: 210px;
+	left: 550px;
+	transform: scale(2) ;
+	transition: .5s ease;
 }
 
 
-.glyph13 div.left{
-	background: transparent;
+
+.glyph25Y {
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 155px;
 }
 
 
-.glyph13 div.right{
-	background: transparent;
-}
 
-.glyph13 div.leftbot{
+.glyph25Y div.left{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 107px;
+	}
+
+.glyph25Y div.right{
+		background: transparent;
+
+	}
+
+.glyph25Y div.lefttop{
 	background: black;
 	border-radius: 0px 60px 0px 0px;
 	width: 100%;
-	height: 167px;
-}
+	height: 50px;
 
-
-.glyph13 div.rightbot{
+	}
+.glyph25Y div.righttop{
+	
 	background: black;
-	border-radius: 60px 0px 0px 0px;
+	border-radius: 0px 60px 0px 0px;
 	width: 100%;
-	height: 167px;
-}
+	height: 166px;
 
-.glyph13 div.leftex{
+	}
+
+.glyph25Y div.leftbot{
 	background: transparent;
-}
 
 
-.glyph13 div.rightex{
-	background:  transparent;
-}
+	}
+
+.glyph25Y div.rightbot{
+	background: transparent;
+
+	}
+
+.glyph25Y div.leftdescender{
+	background: transparent;
 
 
+	}
 
-
-#glyphE2{
+.glyph25Y div.rightdescender{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
 	width: 100%;
-	height: auto;
-	box-sizing: content-box;
-	transform: scale(2);
-	left: 450px;
-	top: 300px;
-	transform: scale(2) ;
-	transition: 1s ease;
-}
+	height: 50px;
+
+	}
+
+
+
+
+
+
 
 
 
@@ -771,8 +759,10 @@ div#for2{
 
 
 
+/* A */
 
-.glyphnumber2{
+
+#thisA{
 	position: relative;
 	display: grid;
 	float: left;
@@ -780,61 +770,67 @@ div#for2{
 	grid-template-columns: 50px 50px;
 	grid-gap: 8px 8px;
 	padding-right: 20px;
-	top: 90px;
-
-}
-
-
-
-#glyphnum2{
-	width: 100%;
-	height: auto;
-	box-sizing: content-box;
-	transform: scale(2);
-	left: 670px;
-	top: 370px;
+	top: 400px;
+	left: 650px;
 	transform: scale(2) ;
 	transition: 1s ease;
 }
 
 
-.glyphnumber2 div.left{
+
+.singleA{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 110px;
+
+}
+
+
+.singleA div.left{
 	background: black;
+	border-radius: 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.singleA div.right{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+.singleA div.leftbot{
+	background: black;
+	border-radius: 60px 0px 0px 60px;
+	width: 100%;
+	height: 105px;
+}
+
+
+.singleA div.rightbot{
+	background:  black;
 	border-radius: 0px 0px 0px 60px;
 	width: 100%;
-	height: 50px;
+	height: 105px;
 }
 
-
-.glyphnumber2 div.right{
-	background: black;
-	border-radius: 0px 60px 0px 0px;
-	width: 100%;
-	height: 80px;
-}
-
-.glyphnumber2 div.leftbot{
-	background: black;
-	border-radius: 60px 0px 0px 0px;
-	width: 100%;
-	height: 108px;
-}
-
-.glyphnumber2 div.rightbot{
-	background: transparent;
-}
-
-.glyphnumber2 div.leftex{
+.singleA div.leftex{
 	background: transparent;
 }
 
 
-.glyphnumber2 div.rightex{
-	background: black;
-	border-radius: 0px 60px 0px 0px;
-	width: 100%;
-	height: 50px;
+.singleA div.rightex{
+	background:  transparent;
 }
+
+
 
 
 
@@ -1640,6 +1636,357 @@ div#for2{
 
 
 
+/* Typeface 2*/
+
+
+#Typeface2{
+	grid-template-columns: repeat(4, 8vw);
+    grid-template-rows: repeat(1, 16vw);
+    grid-gap: 1vw;
+    padding: calc(50vh - 24vw) 10vw;
+    display: grid;
+    position: relative;
+    align-content: center;
+    box-sizing: border-box;
+    height: auto;
+    padding-left: 150px;
+    padding-bottom: 500px;
+    padding-top: 175px;
+	transition: 1s ease;
+	background: #21d996;
+}
+
+
+
+
+/* T */
+
+
+#glyphT22{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 45px;
+	left: 300px;
+	transform: scale(2) ;
+	transition: .5s ease;
+
+}
+
+
+
+.glyph202 {
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	padding-top: 40px;
+	top: 60px;
+}
+
+
+
+.glyph202 div.left{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 166px;
+
+	}
+
+.glyph202 div.right{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+
+.glyph202 div.lefttop{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+.glyph202 div.righttop{
+	background: transparent;
+
+	}
+
+.glyph202 div.leftbot{
+	background: transparent;
+
+	}
+
+.glyph202 div.rightbot{
+	background: transparent;
+
+	}
+
+.glyph202 div.leftex{
+	background: transparent;
+
+}
+
+.glyph202 div.rightex{
+	background: transparent;
+
+	}
+
+
+
+
+
+/* Y */
+
+
+#glyphY22{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 240px;
+	left: 400px;
+	transform: scale(2) ;
+	transition: .5s ease;
+}
+
+
+.glyph252 {
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 155px;
+}
+
+
+
+.glyph252 div.left{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 107px;
+	}
+
+.glyph252 div.right{
+		background: transparent;
+
+	}
+
+.glyph252 div.lefttop{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+.glyph252 div.righttop{
+	
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 166px;
+
+	}
+
+.glyph252 div.leftbot{
+	background: transparent;
+
+
+	}
+
+.glyph252 div.rightbot{
+	background: transparent;
+
+	}
+
+.glyph252 div.leftdescender{
+	background: transparent;
+
+
+	}
+
+.glyph252 div.rightdescender{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+
+
+/* P */
+
+
+#glyphP22{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 240px;
+	left: 500px;
+	transform: scale(2) ;
+	transition: .5s ease;
+
+}
+
+.glyph162 {
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 155px;
+}
+
+
+
+.glyph162 div.left{
+	background: transparent;
+	}
+
+.glyph162 div.right{
+		background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 107px;
+
+	}
+
+.glyph162 div.lefttop{
+	background: black;
+	border-radius: 60px 00px 0px 0px;
+	width: 100%;
+	height: 166px;
+
+	}
+.glyph162 div.righttop{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+
+.glyph162 div.leftbot{
+	background: transparent;
+
+
+	}
+
+.glyph162 div.rightbot{
+	background: transparent;
+
+	}
+
+.glyph162 div.leftdescender{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+
+
+	}
+
+.glyph162 div.rightdescender{
+	background: transparent;
+
+	}
+
+
+
+
+
+/* E */
+
+#glyphE62{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 240px;
+	left: 590px;
+	transform: scale(2) ;
+	transition: .5s ease;
+
+}
+
+.glyphE52{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 108px;
+
+}
+
+
+.glyphE52 div.left{
+	background: black;
+	border-radius: 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.glyphE52 div.right{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 90px;
+}
+
+.glyphE52 div.leftbot{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 108px;
+}
+
+
+.glyphE52 div.rightbot{
+	background: transparent;
+}
+
+
+.glyphE52 div.rightex{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+
+}
+.glyphE52 div.leftex{
+	background: transparent;
+}
+
+
 
 
 /* 2 */
@@ -2048,6 +2395,708 @@ h1{
 .lastA div.rightex{
 	background:  transparent;
 }
+
+
+
+
+/* WITH */
+
+#with{
+	grid-template-columns: repeat(4, 8vw);
+    grid-template-rows: repeat(1, 16vw);
+    grid-gap: 1vw;
+    padding: calc(50vh - 24vw) 10vw;
+    display: grid;
+    position: relative;
+    align-content: center;
+    box-sizing: border-box;
+    height: auto;
+    padding-bottom: 500px;
+	padding-top: 170px;
+	padding-right: 0px;
+	padding-left: 130px;
+	transition: .5s ease;	
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: fixed;
+	overflow: hidden;
+	background: #21d996;
+	
+
+}
+
+
+
+
+
+
+
+/* W */
+
+#glyphW{
+position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 240px;
+	left: 320px;
+	transform: scale(2) ;
+	transition: 1s ease;
+}
+
+
+
+.glyphW1{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 160px;
+
+}
+
+.glyphW1 div.left{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.glyphW1 div.right{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+.glyphW1 div.leftbot{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 110px;
+}
+
+
+.glyphW1 div.rightbot{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 110px;
+}
+
+.glyphW1 div.leftex{
+	background: transparent;
+}
+
+
+.glyphW1 div.rightex{
+	background: transparent;
+}
+
+
+
+	/* I */
+
+#glyphI{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 70px;
+	left: 400px;
+	transform: scale(2) ;
+	transition: 1s ease;
+}
+
+
+.glyph9 {
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: repeat(2);
+	grid-template-columns: 50px;
+	grid-gap: 8px 8px;
+	top: 50px;
+	left: 30px;
+	
+}
+
+
+
+.glyph9 div.left{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 169px;
+
+	}
+
+
+.glyph9 div.lefttop{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+
+
+
+
+
+/* T */
+
+
+#glyphT2{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 43px;
+	left: 430px;
+	transform: scale(2) ;
+	transition: 1s ease;
+
+}
+
+
+
+.glyph20T {
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	padding-top: 40px;
+	top: 60px;
+}
+
+
+
+.glyph20T div.left{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 166px;
+
+	}
+
+.glyph20T div.right{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+
+.glyph20T div.lefttop{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+.glyph20T div.righttop{
+	background: transparent;
+
+	}
+
+.glyph20T div.leftbot{
+	background: transparent;
+
+	}
+
+.glyph20T div.rightbot{
+	background: transparent;
+
+	}
+
+.glyph20T div.leftex{
+	background: transparent;
+
+}
+
+.glyph20T div.rightex{
+	background: transparent;
+
+	}
+
+
+
+
+	/* H */
+
+
+#glyphH{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top:120px;
+	left: 530px;
+	transform: scale(2) ;
+	transition: 1s ease;
+
+}
+.glyph8 {
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 50px;
+}
+
+
+
+.glyph8 div.left{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 169px;
+
+	}
+
+.glyph8 div.right{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+
+.glyph8 div.lefttop{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+
+	}
+	.glyph8 div.righttop{
+	background: transparent;
+
+	}
+
+.glyph8 div.leftbot{
+	background: transparent;
+
+	}
+
+.glyph8 div.rightbot{
+	background: black;
+	border-radius: 0px 0px 00px 60px;
+	width: 100%;
+	height: 111px;
+
+	}
+
+
+
+/* NUMBER SHOWCASE DESIGN */
+
+
+
+#showcase1{
+	grid-template-columns: repeat(1, 8vw);
+    grid-template-rows: repeat(1, 16vw);
+    grid-gap: 1vw;
+    padding: calc(50vh - 24vw) 10vw;
+    display: grid;
+    align-content: center;
+    box-sizing: border-box;
+    height: auto;
+    padding-bottom: 500px;
+	padding-top: 170px;
+	transition: .5s ease;
+	background-color: red;
+	background-position: 100% auto;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: fixed;
+	position: relative;
+}
+
+
+#showcase2{
+	grid-template-columns: repeat(1, 8vw);
+    grid-template-rows: repeat(1, 16vw);
+    grid-gap: 1vw;
+    padding: calc(50vh - 24vw) 10vw;
+    display: grid;
+    align-content: center;
+    box-sizing: border-box;
+    height: auto;
+    padding-bottom: 500px;
+	padding-top: 170px;
+	transition: .5s ease;
+	background-color: red;
+	background-position: 100% auto;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: fixed;
+	position: relative;
+	background: #00FF91;
+
+}
+
+
+
+#showcase3{
+	grid-template-columns: repeat(1, 8vw);
+    grid-template-rows: repeat(1, 16vw);
+    grid-gap: 1vw;
+    padding: calc(50vh - 24vw) 10vw;
+    display: grid;
+    align-content: center;
+    box-sizing: border-box;
+    height: auto;
+    padding-bottom: 500px;
+	padding-top: 170px;
+	transition: .5s ease;
+	background-color: red;
+	background-position: 100% auto;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: fixed;
+	position: relative;
+	background: #21d996;
+
+}
+#showcase4{
+	grid-template-columns: repeat(1, 8vw);
+    grid-template-rows: repeat(1, 16vw);
+    grid-gap: 1vw;
+    padding: calc(50vh - 24vw) 10vw;
+    display: grid;
+    align-content: center;
+    box-sizing: border-box;
+    height: auto;
+    padding-bottom: 500px;
+	padding-top: 170px;
+	transition: .5s ease;
+	background-color: red;
+	background-position: 100% auto;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: fixed;
+	position: relative;
+}
+
+
+
+#thisfour{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top:300px;
+	left: 0px;
+	transform: scale(2) ;
+	transition: .05s ease;
+}
+
+.show4{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 160px;
+
+}
+
+
+.show4 div.left{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.show4 div.right{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+.show4 div.leftbot{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.show4 div.rightbot{
+	background:  black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 105px;
+}
+
+.show4 div.leftex{
+	background: transparent;
+}
+
+
+.show4 div.rightex{
+	background:  transparent;
+}
+
+
+
+
+
+/* 5 */
+
+
+#thisfive{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top:0px;
+	left: 650px;
+	transform: scale(.5) ;
+	transition: .8s ease-out;
+}
+
+.show5{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 160px;
+
+}
+
+
+.show5 div.left{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.show5 div.right{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+.show5 div.leftbot{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.show5 div.rightbot{
+	background:  black;
+	border-radius: 0px 60px 60px 0px;
+	width: 100%;
+	height: 108px;
+}
+
+.show5 div.leftex{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.show5 div.rightex{
+	background:  transparent;
+}
+
+
+
+/* 6 */
+
+
+#thissix{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top:300px;
+	left: 650px;
+	transform: scale(4) ;
+	transition: 1s ease-in;
+	
+}
+
+.show6{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 160px;
+
+}
+
+
+.show6 div.left{
+	background: black;
+	border-radius: 60px 0px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.show6 div.right{
+	background: black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+.show6 div.leftbot{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 108px;
+}
+
+
+.show6 div.rightbot{
+	background:  black;
+	border-radius: 0px 60px 60px 0px;
+	width: 100%;
+	height: 108px;
+}
+
+.show6 div.leftex{
+	background: transparent;
+}
+
+
+.show6 div.rightex{
+	background:  transparent;
+}
+
+
+
+
+/* 7 */
+
+
+#thisseven{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top:350px;
+	left: 650px;
+	transform: scale(2) ;
+	transition: 1s ease-in;
+}
+
+.show7{
+	position: relative;
+	display: grid;
+	float: left;
+	grid-template-rows: 50px 50px;
+	grid-template-columns: 50px 50px;
+	grid-gap: 8px 8px;
+	padding-right: 20px;
+	top: 160px;
+
+}
+
+
+.show7 div.left{
+	background: black;
+	border-radius: 0px 0px 0px 60px;
+	width: 100%;
+	height: 50px;
+}
+
+
+.show7 div.right{
+	background: black;
+	border-radius: 0px 60px 0px 0px;
+	width: 100%;
+	height: 50px;
+}
+
+.show7 div.leftbot{
+	background: transparent;
+}
+
+
+.show7 div.rightbot{
+	background:  black;
+	border-radius: 0px 0px 60px 0px;
+	width: 100%;
+	height: 108px;
+}
+
+.show7 div.leftex{
+	background: transparent;
+}
+
+
+.show7 div.rightex{
+	background:  transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2603,12 +3652,6 @@ animation: numerals 3s ease infinite;
 
 	/* I */
 
-#forletterI{
-	display: grid;
-	grid-template-columns: 50px;
-	grid-template-rows: repeat(1, 8vw);
-	
-}
 
 .letter9 {
 	position: relative;
